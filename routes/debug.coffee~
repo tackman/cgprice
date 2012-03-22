@@ -1,0 +1,6 @@
+req2ch = require '../mylibs/req2ch'
+
+exports.threads = (req, res) ->
+  req2ch.threads
+  res.render "index",
+    title: "deubg.coffee#threads"
