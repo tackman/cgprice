@@ -12,3 +12,10 @@ exports.threads = (req,res) ->
     body = conv.convert(buf).toString()
     console.log body
 
+exports.httpGet = (url, callback) ->
+  request.get url: url, encoding: 'binary', (err, response, body) ->
+    conv = new Iconv 'CP932','UTF-8'
+    buf = new Buffer body, 'binary'
+    body = conv.convert(buf).toString()
+    callback body
+
