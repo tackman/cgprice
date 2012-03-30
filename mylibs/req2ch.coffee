@@ -5,9 +5,7 @@ request = require 'request'
 
 # スレッド一覧を取得し、配列にしてコールバックに渡す
 # やっぱりついでにトレードスレの抜き出しまでやっちゃってコールバック
-exports.threads = (callback) ->
-  console.log 'exports.threads'
-  func()
+exports.threads = (callback,err_cb) ->
   exports.httpGet 'http://hayabusa3.2ch.net/appli/subject.txt',
   (body) ->
     lines = body.split '\n'
@@ -17,12 +15,20 @@ exports.threads = (callback) ->
       if thread[1] and thread[1].match /アイドルマスターCGトレードスレ/
         arg = {dat: thread[0]}
         array.push arg
-    
     callback array
+  ,err_cb
+
+exports.getDat = (dat, callback, err_cb) ->
+  url = 'http://hayabusa3.2ch.net/appli/dat/' + dat
+  exports.httpGet url, callback, err_cb
 
 # SJISのページを取ってきてUTF-8でコールバックに渡す
-exports.httpGet = (url, callback) ->
+exports.httpGet = (url, callback, err_cb) ->
+  console.log 'httpGet url=' + url
   request.get url: url, encoding: 'binary', (err, response, body) ->
+    if err?
+      err_cb err
+      return
     conv = new Iconv 'CP932','UTF-8'
     buf = new Buffer body, 'binary'
     body = conv.convert(buf).toString()
