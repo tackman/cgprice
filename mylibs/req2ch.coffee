@@ -13,7 +13,7 @@ exports.threads = (callback,err_cb) ->
     for line in lines
       thread = line.split '<>'
       if thread[1] and thread[1].match /アイドルマスターCGトレードスレ/
-        arg = {dat: thread[0]}
+        arg = {dat: thread[0], name: thread[1]}
         array.push arg
     callback array
   ,err_cb
@@ -31,8 +31,13 @@ exports.httpGet = (url, callback, err_cb) ->
       return
     conv = new Iconv 'CP932','UTF-8'
     buf = new Buffer body, 'binary'
-    body = conv.convert(buf).toString()
-    callback body
+    console.log 'try to convert ' + url
+
+    try
+      body = conv.convert(buf).toString()
+      callback body,url
+    catch error
+      console.log error
 
 func = () ->
   console.log 'hoge'

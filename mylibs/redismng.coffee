@@ -1,4 +1,5 @@
 idols = require './idols'
+req2ch = require './req2ch'
 redis = require 'redis'
 client = redis.createClient()
 
@@ -8,13 +9,25 @@ client.on "error", (err) ->
 # datを解釈して結果をDBに格納・Redis版
 # うまくいかなかったらPSQL版が書かれることになる
 
-exports.process = (dats) ->
-  for dat in dats
-    exports.parse dat
+exports.process = (threads) ->
+  for thread in threads
+    console.log 'try thread ' + thread.name
+    req2ch.getDat thread.dat, (body,url) ->
+      result = exports.parse body
+      console.log 'processed ' + url
+    ,(err) -> console.log 'error at req2ch.getDat'
 
 # 1つのdatに対して[{'id':'price'}, ...] の配列を返す
 exports.parse = (dat) ->
+  ret = []
   reses = dat.split '\n'
+  for res in reses
+    results = exports.parseRes res
+    if results?
+      for result in results
+        ret.push result
+  return ret
+
 
 # １つのレスを処理
 # returns: [{'id': 'price'}, ...]
@@ -42,8 +55,8 @@ exports.parseRes = (res) ->
 # 本文に対して、nameのアイドルを探してパース    
 # 戻り値は価格
 exports.parseBody = (body, name) ->
-  reg1 = new RegExp '(' + name + ').*([0-9]+\\.?[0-9]*)'
-  reg2 = new RegExp '([0-9]+\\.?[0-9]*).*(' + name + ')'
+  reg1 = new RegExp '(' + name + '[^\\+]).*([0-9]+\\.?[0-9]*)'
+  reg2 = new RegExp '([0-9]+\\.?[0-9]*).*(' + name + '[^\\+])'
 
   lines = body.split '<br>'
   for line in lines
@@ -52,7 +65,6 @@ exports.parseBody = (body, name) ->
     else if line.match reg1
       return RegExp.$2
     else if line.match reg2
-      console.log 'matched type2'
       return RegExp.$1
 
   return null
