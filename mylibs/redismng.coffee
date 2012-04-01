@@ -18,29 +18,35 @@ exports.parse = (dat) ->
 
 # １つのレスを処理
 # returns: [{'id': 'price'}, ...]
-parseRes = (res) ->
+exports.parseRes = (res) ->
+  ret = []
   elems = res.split '<>'
   return null if res.length < 4
-  # res[0] 名前
-  # res[1] mail
-  # res[2] date, id
-  # res[3] body
+  # elems[0] 名前
+  # elems[1] mail
+  # elems[2] date, id
+  # elems[3] body
   list = idols.list
+  table = idols.table
   for name in list
-    price = exports.parseBody res[3],name
-    id = idols.table[name]
-    ret.push '{""'+ id '" : "' + price  +'"}'
+    price = exports.parseBody elems[3],name
+    if price?
+      id = table[name]
+      toPush = new Object()
+      toPush[id] = price
+      ret.push toPush
+
+  return ret
 
 
 # 本文に対して、nameのアイドルを探してパース    
 # 戻り値は価格
 exports.parseBody = (body, name) ->
-  reg1 = new RegExp '(' + name + ').*([0-9]+)'
-  reg2 = new RegExp '([0-9]+).*(' + name + ')'
+  reg1 = new RegExp '(' + name + ').*([0-9]+\\.?[0-9]*)'
+  reg2 = new RegExp '([0-9]+\\.?[0-9]*).*(' + name + ')'
 
   lines = body.split '<br>'
   for line in lines
-    console.log 'line=' + line
     if line.match(reg1) and line.match(reg2)
       continue
     else if line.match reg1

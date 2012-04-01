@@ -5,10 +5,12 @@
 # 並び順はアイマスCGWiki準拠になるように頑張る
 exports.table = {
   '島村卯月': 'ShimamuraUzuki'
+  ' 宮本フレデリカ': 'MiyamotoFrederica'
+  ' 宮本フレデリカ\\+': 'MiyamotoFrederica+'
   '日下部若葉':'KusakabeWakaba'
-  '日下部若葉+':'KusakabeWakaba+'
+  '日下部若葉\\+':'KusakabeWakaba+'
   '安部菜々':'AbeNana'
-  '安部菜々+' :'AbeNana+'
+  '安部菜々\\+' :'AbeNana+'
   '［ふわふわスマイル］三村かな子': 'FuwafuwasmileMimuraKanako'
   'SRかな子': 'FuwafuwasmileMimuraKanako'
   '［ふわふわスマイル］三村かな子+': 'FuwafuwasmileMimuraKanako+'
@@ -23,10 +25,12 @@ exports.table = {
 # TODO: この一覧にあるものが全部tableにあることを確認するテストコード
 exports.list = [
   '島村卯月'
+  ' 宮本フレデリカ'
+  ' 宮本フレデリカ\\+'
   '日下部若葉'
-  '日下部若葉+'
+  '日下部若葉\\+'
   '安部菜々'
-  '安部菜々+'
+  '安部菜々\\+'
   '［ふわふわスマイル］三村かな子'
   'SRかな子'
   '［ふわふわスマイル］三村かな子+'
@@ -39,6 +43,8 @@ exports.list = [
 # id一覧
 exports.ids = [
   'ShimamuraUzuki'
+  'MiyamotoFrederica'
+  'MiyamotoFrederica+'
   'KusakabeWakaba'
   'KusakabeWakaba+'
   'AbeNana'
