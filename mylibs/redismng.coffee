@@ -56,6 +56,8 @@ exports.parseRes = (res) ->
 # 戻り値は価格
 exports.parseBody = (body, name) ->
   escaped = name.replace /\\+/g, '\\+'
+  escaped = escaped.replcae /\\[/g, '\\['
+  escaped = escaped.replace /\\]/g, '\\]'
   reg1 = new RegExp '(' + escaped + '[^\\+]).*([0-9]+\\.?[0-9]*)'
   reg2 = new RegExp '([0-9]+\\.?[0-9]*).*(' + escaped + '[^\\+])'
 
