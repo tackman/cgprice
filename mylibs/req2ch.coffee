@@ -12,7 +12,7 @@ exports.threads = (callback,err_cb) ->
     array = []
     for line in lines
       thread = line.split '<>'
-      if thread[1] and thread[1].match /アイドルマスターCGトレードスレ/
+      if thread[1] and thread[1].match /アイドルマスターCG.*トレードスレ/
         arg = {dat: thread[0], name: thread[1]}
         array.push arg
     callback array
