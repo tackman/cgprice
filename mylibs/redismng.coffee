@@ -69,7 +69,7 @@ exports.parseBody = (body, name) ->
 
   lines = body.split '<br>'
   for line in lines
-    if line.length < 3
+    if line.indexOf(name) == -1
       continue
     if line.match(reg1) and line.match(reg2)
       continue
