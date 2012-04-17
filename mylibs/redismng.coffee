@@ -2,7 +2,7 @@ idols = require './idols'
 req2ch = require './req2ch'
 redis = require 'redis'
 client = redis.createClient()
-
+###
 client.on "error", (err) ->
   console.log 'redis error:' + err
 
@@ -29,6 +29,7 @@ exports.parse = (dat) ->
   return ret
 
 
+
 # １つのレスを処理
 # returns: [{'id': 'price'}, ...]
 exports.parseRes = (res) ->
@@ -51,13 +52,13 @@ exports.parseRes = (res) ->
 
   return ret
 
-
+###
 # 本文に対して、nameのアイドルを探してパース    
 # 戻り値は価格
 exports.parseBody = (body, name) ->
   escaped = name.replace /\\+/g, '\\+'
-  escaped = escaped.replcae /\\[/g, '\\['
-  escaped = escaped.replace /\\]/g, '\\]'
+  escaped = escaped.replace /\\\[/g, '\\['
+  escaped = escaped.replace /\\\]/g, '\\]'
   reg1 = new RegExp '(' + escaped + '[^\\+]).*([0-9]+\\.?[0-9]*)'
   reg2 = new RegExp '([0-9]+\\.?[0-9]*).*(' + escaped + '[^\\+])'
 
@@ -69,5 +70,15 @@ exports.parseBody = (body, name) ->
       return RegExp.$2
     else if line.match reg2
       return RegExp.$1
-
   return null
+
+
+
+
+
+
+
+
+
+
+
