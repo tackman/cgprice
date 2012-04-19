@@ -34,10 +34,13 @@ exports.httpGet = (url, callback, err_cb) ->
     console.log 'try to convert ' + url
 
     try
+      console.log 'begin iconv'
       body = conv.convert(buf).toString()
       callback body,url
     catch error
       console.log error
+    finally
+      console.log 'end iconv'
 
 func = () ->
   console.log 'hoge'

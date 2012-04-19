@@ -18,7 +18,8 @@ exports.process = (threads) ->
     ,(err) -> console.log 'error at req2ch.getDat'
 
 # 1つのdatに対して[{'id':'price'}, ...] の配列を返す
-exports.parse = (dat) ->
+# やっぱりDB追加までここでやる
+exports.parse = (dat, callback) ->
   ret = []
   reses = dat.split '\n'
   count = 0
@@ -28,11 +29,24 @@ exports.parse = (dat) ->
       for result in results
         ret.push result
     count++
-    console.log 'res processed ' + count
+#    console.log 'res processed ' + count
 
-  console.log ret
-  return ret
+  _ret = insertDb ret
+#  console.log _ret
+  callback _ret
+  return _ret
 
+insertDb = (ary) ->
+  toInsert = {}
+  for obj in ary
+    unless toInsert[obj.id]?
+      toInsert[obj.id] = []
+    unless (toInsert[obj.id])[obj.price]?
+      (toInsert[obj.id])[obj.price] = 0
+    (toInsert[obj.id])[obj.price] += 1
+
+#  console.log toInsert
+  return toInsert
 
 
 # １つのレスを処理
@@ -52,7 +66,8 @@ exports.parseRes = (res) ->
     if price?
       id = table[name]
       toPush = new Object()
-      toPush[id] = price
+      toPush.id = id
+      toPush.price = price
       ret.push toPush
 
   return ret
@@ -78,14 +93,3 @@ exports.parseBody = (body, name) ->
     else if line.match reg2
       return RegExp.$1
   return null
-
-
-
-
-
-
-
-
-
-
-

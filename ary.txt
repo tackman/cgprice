@@ -1,0 +1,552 @@
+httpGet url=http://hayabusa3.2ch.net/appli/subject.txt
+try to convert http://hayabusa3.2ch.net/appli/subject.txt
+begin iconv
+1334644624.dat
+httpGet url=http://hayabusa3.2ch.net/appli/dat/1334644624.dat
+end iconv
+try to convert http://hayabusa3.2ch.net/appli/dat/1334644624.dat
+begin iconv
+res processed 1
+res processed 2
+res processed 3
+res processed 4
+res processed 5
+res processed 6
+res processed 7
+res processed 8
+res processed 9
+res processed 10
+res processed 11
+res processed 12
+res processed 13
+res processed 14
+res processed 15
+res processed 16
+res processed 17
+res processed 18
+res processed 19
+res processed 20
+res processed 21
+res processed 22
+res processed 23
+res processed 24
+res processed 25
+res processed 26
+res processed 27
+res processed 28
+res processed 29
+res processed 30
+res processed 31
+res processed 32
+res processed 33
+res processed 34
+res processed 35
+res processed 36
+res processed 37
+res processed 38
+res processed 39
+res processed 40
+res processed 41
+res processed 42
+res processed 43
+res processed 44
+res processed 45
+res processed 46
+res processed 47
+res processed 48
+res processed 49
+res processed 50
+res processed 51
+res processed 52
+res processed 53
+res processed 54
+res processed 55
+res processed 56
+res processed 57
+res processed 58
+res processed 59
+res processed 60
+res processed 61
+res processed 62
+res processed 63
+res processed 64
+res processed 65
+res processed 66
+res processed 67
+res processed 68
+res processed 69
+res processed 70
+res processed 71
+res processed 72
+res processed 73
+res processed 74
+res processed 75
+res processed 76
+res processed 77
+res processed 78
+res processed 79
+res processed 80
+res processed 81
+res processed 82
+res processed 83
+res processed 84
+res processed 85
+res processed 86
+res processed 87
+res processed 88
+res processed 89
+res processed 90
+res processed 91
+res processed 92
+res processed 93
+res processed 94
+res processed 95
+res processed 96
+res processed 97
+res processed 98
+res processed 99
+res processed 100
+res processed 101
+res processed 102
+res processed 103
+res processed 104
+res processed 105
+res processed 106
+res processed 107
+res processed 108
+res processed 109
+res processed 110
+res processed 111
+res processed 112
+res processed 113
+res processed 114
+res processed 115
+res processed 116
+res processed 117
+res processed 118
+res processed 119
+res processed 120
+res processed 121
+res processed 122
+res processed 123
+res processed 124
+res processed 125
+res processed 126
+res processed 127
+res processed 128
+res processed 129
+res processed 130
+res processed 131
+res processed 132
+res processed 133
+res processed 134
+res processed 135
+res processed 136
+res processed 137
+res processed 138
+res processed 139
+res processed 140
+res processed 141
+res processed 142
+res processed 143
+res processed 144
+res processed 145
+res processed 146
+res processed 147
+res processed 148
+res processed 149
+res processed 150
+res processed 151
+res processed 152
+res processed 153
+res processed 154
+res processed 155
+res processed 156
+res processed 157
+res processed 158
+res processed 159
+res processed 160
+res processed 161
+res processed 162
+res processed 163
+res processed 164
+res processed 165
+res processed 166
+res processed 167
+res processed 168
+res processed 169
+res processed 170
+res processed 171
+res processed 172
+res processed 173
+res processed 174
+res processed 175
+res processed 176
+res processed 177
+res processed 178
+res processed 179
+res processed 180
+res processed 181
+res processed 182
+res processed 183
+res processed 184
+res processed 185
+res processed 186
+res processed 187
+res processed 188
+res processed 189
+res processed 190
+res processed 191
+res processed 192
+res processed 193
+res processed 194
+res processed 195
+res processed 196
+res processed 197
+res processed 198
+res processed 199
+res processed 200
+res processed 201
+res processed 202
+res processed 203
+res processed 204
+res processed 205
+res processed 206
+res processed 207
+res processed 208
+res processed 209
+res processed 210
+res processed 211
+res processed 212
+res processed 213
+res processed 214
+res processed 215
+res processed 216
+res processed 217
+res processed 218
+res processed 219
+res processed 220
+res processed 221
+res processed 222
+res processed 223
+res processed 224
+res processed 225
+res processed 226
+res processed 227
+res processed 228
+res processed 229
+res processed 230
+res processed 231
+res processed 232
+res processed 233
+res processed 234
+res processed 235
+res processed 236
+res processed 237
+res processed 238
+res processed 239
+res processed 240
+res processed 241
+res processed 242
+res processed 243
+res processed 244
+res processed 245
+res processed 246
+res processed 247
+res processed 248
+res processed 249
+res processed 250
+res processed 251
+res processed 252
+res processed 253
+res processed 254
+res processed 255
+res processed 256
+res processed 257
+res processed 258
+res processed 259
+res processed 260
+res processed 261
+res processed 262
+res processed 263
+res processed 264
+res processed 265
+res processed 266
+res processed 267
+res processed 268
+res processed 269
+res processed 270
+res processed 271
+res processed 272
+res processed 273
+res processed 274
+res processed 275
+res processed 276
+res processed 277
+res processed 278
+res processed 279
+res processed 280
+res processed 281
+res processed 282
+res processed 283
+res processed 284
+res processed 285
+res processed 286
+res processed 287
+res processed 288
+res processed 289
+res processed 290
+res processed 291
+res processed 292
+res processed 293
+res processed 294
+res processed 295
+res processed 296
+res processed 297
+res processed 298
+res processed 299
+res processed 300
+res processed 301
+res processed 302
+res processed 303
+res processed 304
+res processed 305
+res processed 306
+res processed 307
+res processed 308
+res processed 309
+res processed 310
+res processed 311
+res processed 312
+res processed 313
+res processed 314
+res processed 315
+res processed 316
+res processed 317
+res processed 318
+res processed 319
+res processed 320
+res processed 321
+res processed 322
+res processed 323
+res processed 324
+res processed 325
+res processed 326
+res processed 327
+res processed 328
+res processed 329
+res processed 330
+res processed 331
+res processed 332
+res processed 333
+res processed 334
+res processed 335
+res processed 336
+res processed 337
+res processed 338
+res processed 339
+res processed 340
+res processed 341
+res processed 342
+res processed 343
+res processed 344
+res processed 345
+res processed 346
+res processed 347
+res processed 348
+res processed 349
+res processed 350
+res processed 351
+res processed 352
+res processed 353
+res processed 354
+res processed 355
+res processed 356
+res processed 357
+res processed 358
+res processed 359
+res processed 360
+res processed 361
+res processed 362
+res processed 363
+res processed 364
+res processed 365
+res processed 366
+res processed 367
+res processed 368
+res processed 369
+res processed 370
+res processed 371
+res processed 372
+res processed 373
+res processed 374
+res processed 375
+res processed 376
+res processed 377
+res processed 378
+res processed 379
+res processed 380
+res processed 381
+res processed 382
+res processed 383
+res processed 384
+res processed 385
+res processed 386
+res processed 387
+res processed 388
+res processed 389
+res processed 390
+res processed 391
+res processed 392
+res processed 393
+res processed 394
+res processed 395
+res processed 396
+res processed 397
+res processed 398
+res processed 399
+res processed 400
+res processed 401
+res processed 402
+res processed 403
+res processed 404
+res processed 405
+res processed 406
+res processed 407
+res processed 408
+res processed 409
+res processed 410
+res processed 411
+res processed 412
+res processed 413
+res processed 414
+res processed 415
+res processed 416
+res processed 417
+res processed 418
+res processed 419
+res processed 420
+res processed 421
+{ TsukimiyaMiyabi: [ 1, 5, 1, 1, '0.5': 2 ],
+  DomyojiKarin: [ 4, 1, 1, 1, 1, '0.5': 2 ],
+  AyaseHonoka: [ 1, 4, 1, 1, 1, '0.5': 2 ],
+  ShinoharaRei: [ 3 ],
+  HamakawaAyuna: [ 5 ],
+  SomaNatsumi: [ 6, '0.5': 1 ],
+  MakiharaShiho: [ 4, 2, 1, '0.5': 1 ],
+  VeteranTrainer: [ 1, 10, 2, 1, 1, 1, 1, 1 ],
+  YaoFueiFuei: [ 4, 1, 1, 1, 1, '0.5': 1 ],
+  TakatsukiYayoi: [ 9, 1, 1 ],
+  KoshimizuSachiko: [ 4, 1, '1.5': 1 ],
+  UmekiOtoha: [ 4, '1.5': 1 ],
+  MoroboshiKirari: [ 7, 1 ],
+  ShirasakaKoume: [ 2, 3, 4, 1 ],
+  SeifukugreenTakatsukiYayoi: [ 1, 1, 2, 2, 1 ],
+  MinaseIori: [ 4, 2 ],
+  'KudoShinobu+': [ 1 ],
+  KisaragiChihaya: [ 2, 5, 2, 4 ],
+  SenzakiEma: [ 1, 4, 1, '0.5': 2, '1.5': 1 ],
+  FutamiAmi: [ 4, 1, 1, 1, '1.5': 1 ],
+  FutamiMami: [ 7, 1, 1, 1 ],
+  'KogaKoharu+': [ 1 ],
+  YoshiokaSaki: [ 2, '1.5': 1 ],
+  NarumiyaYume: [ 1, 1, 2, 1 ],
+  SugisakaUmi: [ 1, 1, 1, '1.5': 2 ],
+  KikuchiMakoto: [ 5, 1, 1, 1 ],
+  HiragiShino: [ 1, 8, 1, 1, 2, 6, 1, '0.5': 1 ],
+  HojoKaren: [ 8, 2, 1 ],
+  HagiwaraYukiho: [ 1, 5, 1, 1, 1, 1, 1 ],
+  JougasakiMika: [ 4, 2, 1 ],
+  TotokiAiri: [ 4, 4 ],
+  Natalia: [ 1, 2, '1.5': 1 ],
+  MasterTrainer: [ 4, 2 ],
+  'MaekawaMiku+': [ 1, '1.5': 2 ],
+  'AbeNana+': [ 1 ],
+  MiuraAzusa: [ 3, 1, 1, 1, 2 ],
+  'AkanishiErika+': [ 1 ],
+  'KoshimizuSachiko+': [ 1 ],
+  KomuroChinami: [ 2 ],
+  AkizukiRitsuko: [ 9, 1 ],
+  'ShijoTakane+': [ 1 ],
+  'ShinoharaRei+': [ 1 ],
+  'Natalia+': [ 1, 1 ],
+  MomoiAzuki: [ 6, 1, 1, '0.5': 1 ],
+  SajoYukimi: [ 1, 1, 1, 1, 1 ],
+  JougasakiRika: [ 2, 4, 1, 2, 1 ],
+  SuzumiyaSeika: [ 5, 1 ],
+  SaionjiKotoka: [ 7, 1, 1, '1.5': 1 ],
+  HinoAkane: [ 3, 1 ],
+  TakagakiKaede: [ 1, 1, 3, 1, 2 ],
+  KanzakiRanko: [ 1, 4, 1, 1 ],
+  FutabaAnzu: [ 1, 1, 7 ],
+  'KikuchiMakoto+': [ 2 ],
+  'OnishiYuriko+': [ 2 ],
+  'MiuraAzusa+': [ 2 ],
+  NambaEmi: [ 3, 2 ],
+  MaekawaMiku: [ 2, 2, 2 ],
+  MatsubaraSaya: [ 2 ],
+  GanahaHibiki: [ 2, 1 ],
+  HoshiiMiki: [ 1, 1 ],
+  UjiieMutsumi: [ 2, 1 ],
+  AbeNana: [ 1, 1, 2, 1, 1, 1 ],
+  ShijoTakane: [ 3, 1 ],
+  'WakuiRumi+': [ 1 ],
+  IjuinMegumi: [ 1, '1.5': 1 ],
+  MeganemagicKamijoHaruna: [ 1 ],
+  KobayakawaSae: [ 7, 1 ],
+  'DomyojiKarin+': [ 1, 1 ],
+  IchiharaNina: [ 1, 1, 1 ],
+  KusakabeWakaba: [ 2, 2 ],
+  KudoShinobu: [ 1, 1 ],
+  'TakatsukiYayoi+': [ 1 ],
+  'KobayakawaSae+': [ 1 ],
+  'SaionjiKotoka+': [ 1, 1 ],
+  'UmekiOtoha+': [ 1 ],
+  KuriharaNene: [ 1, 1 ],
+  SeifukubeigeAmamiHaruka: [ 1 ],
+  ShimpinomegamiTakagakiKaede: [ 2 ],
+  'HiragiShino+': [ '13.0': 1 ],
+  'KitaHinako+': [ '2.0': 1 ],
+  Kate: [ 5, '0.5': 2 ],
+  WakabayashiTomoka: [ 1 ],
+  OnishiYuriko: [ 1 ],
+  KomatsuIbuki: [ 1 ],
+  AiharaYukino: [ 3 ],
+  MatsunagaRyo: [ 1 ],
+  'KokonoutahimeKisaragiChihaya+': [ 1 ],
+  'YaoFueiFuei+': [ 1 ],
+  'AnzaiMiyako+': [ 1 ],
+  'KitagawaMahiro+': [ 1 ],
+  'MatsubaraSaya+': [ '1.5': 1 ],
+  'YanagiKiyora+': [ '1.5': 1 ],
+  'Helen+': [ '1.5': 1 ],
+  'TakamineNoa+': [ '1.5': 1 ],
+  'NonomuraSora+': [ '1.5': 1 ],
+  'HamakawaAyuna+': [ '1.5': 1 ],
+  'WakabayashiTomoka+': [ '1.5': 1 ],
+  SenaShiori: [ 3 ],
+  MukaiTakumi: [ 2, '1.5': 1 ],
+  YanagiKiyora: [ 1 ],
+  'SuzumiyaSeika+': [ 1 ],
+  'AkizukiRitsuko+': [ 1 ],
+  'HoshiiMiki+': [ 1 ],
+  SexycatMaekawaMiku: [ 1 ],
+  AkanishiErika: [ 1, '1.5': 1 ],
+  KitaHinako: [ 1 ],
+  'KuriharaNene+': [ 1 ],
+  SakakibaraSatomi: [ '1.5': 1 ],
+  MiyamotoFrederica: [ 2 ],
+  TakamineNoa: [ 1 ],
+  WakuiRumi: [ 1, 1 ],
+  PureheartAyaseHonoka: [ 1 ],
+  HyodoRena: [ 1 ],
+  KogaKoharu: [ 1 ],
+  MiyoshiSana: [ 1 ],
+  'AyaseHonoka+': [ 1, 1 ],
+  'FutabaAnzu+': [ 1 ],
+  'HojoKaren+': [ 1 ],
+  'KanzakiRanko+': [ 1 ],
+  Helen: [ 1 ],
+  AibaYumi: [ 1 ],
+  'Kate+': [ 1 ] }
+end iconv
