@@ -40,12 +40,18 @@ insertDb = (ary) ->
   toInsert = {}
   for obj in ary
     unless toInsert[obj.id]?
-      toInsert[obj.id] = []
-    unless (toInsert[obj.id])[obj.price]?
-      (toInsert[obj.id])[obj.price] = 0
-    (toInsert[obj.id])[obj.price] += 1
+      toInsert[obj.id] = {}
+    price_n = parseFloat(obj.price)
+    unless (toInsert[obj.id])[price_n]?
+      (toInsert[obj.id])[price_n] = 0
+    (toInsert[obj.id])[price_n] += 1
 
 #  console.log toInsert
+  
+  for key of toInsert
+    console.log 'insert key=' + key + ' value=' +  JSON.stringify(toInsert[key])
+    client.set key, JSON.stringify(toInsert[key]), redis.print
+
   return toInsert
 
 
