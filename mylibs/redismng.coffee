@@ -6,6 +6,13 @@ client = redis.createClient()
 client.on "error", (err) ->
   console.log 'redis error:' + err
 
+exports.getData = (key, callback, onerr) ->
+  client.get key, (err,data) ->
+    return onerr(err) if err?
+    obj = JSON.parse data
+    callback obj
+
+
 # datを解釈して結果をDBに格納・Redis版
 # うまくいかなかったらPSQL版が書かれることになる
 
@@ -33,7 +40,7 @@ exports.parse = (dat, callback) ->
 
   _ret = insertDb ret
 #  console.log _ret
-  callback _ret
+  callback _ret if callback?
   return _ret
 
 insertDb = (ary) ->

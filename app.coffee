@@ -3,6 +3,7 @@ conString = process.env.DATABASE_URL || "tcp://postgres:qeite8bd2@localhost:5432
 express = require("express")
 routes = require("./routes")
 debug = require './routes/debug'
+refresh = require './routes/refresh'
 app = module.exports = express.createServer()
 
 pg = require 'pg'
@@ -27,6 +28,7 @@ app.configure "production", ->
   app.use express.errorHandler()
 
 app.get '/debug/threads', debug.threads
+app.get '/refresh', refresh.render
 
 app.get "/", routes.index
 
