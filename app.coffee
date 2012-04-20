@@ -4,6 +4,7 @@ express = require("express")
 routes = require("./routes")
 debug = require './routes/debug'
 refresh = require './routes/refresh'
+show = require './routes/show'
 app = module.exports = express.createServer()
 
 pg = require 'pg'
@@ -12,7 +13,7 @@ pg.connect conString, (err,client) ->
 
 app.configure ->
   app.set "views", __dirname + "/views"
-  app.set "view engine", "jade"
+  app.set "view engine", "ejs"
   app.use express.bodyParser()
   app.use express.methodOverride()
   app.use app.router
@@ -29,6 +30,8 @@ app.configure "production", ->
 
 app.get '/debug/threads', debug.threads
 app.get '/refresh', refresh.render
+app.get '/list', show.list
+app.get '/show', show.show
 
 app.get "/", routes.index
 

@@ -30,7 +30,6 @@ refresh = () ->
     console.log ary[0].dat
     req2ch.getDat ary[0].dat, (body, url) ->
       redismng.parse body
-      now = new Date()
-      millis = now.getTime()
+      client.set 'updateThread', ary[0].dat, redis.print
     ,(err) -> console.log 'req2ch#getDat error'
   ,(err) -> console.log 'req2ch#threads error'

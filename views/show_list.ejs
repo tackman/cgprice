@@ -1,0 +1,7 @@
+<h3></h3>
+<p><% 
+for(var i=0; i < list.length; ++i){
+   name = list[i]%>
+<a href="/show?name=<%- encodeURI(name)  %>"><%- name  %> <br />
+<% } %>
+</p>
