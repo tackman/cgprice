@@ -6,10 +6,15 @@ redis = require 'redis'
 client = redis.createClient()
 
 exports.show = (req, res) ->
-  id = idols.talbe[decodeURI(req.query.name)] if req.query.name
+  id = idols.table[decodeURI(req.query.name)] if req.query.name
+  console.log 'id=' + id
   if id?
     redismng.getData id, (obj) ->
-      console.log 'getdata callback'
+      res.render 'show_ok', {
+        title: req.query.name + 'のデータ'
+        locals:{data: obj}
+      }
+      console.log 'getdata callback' + obj
     ,(err) ->
       res.render '500', {status: 500}
   else

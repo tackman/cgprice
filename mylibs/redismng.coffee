@@ -54,7 +54,7 @@ insertDb = (ary) ->
     (toInsert[obj.id])[price_n] += 1
 
 #  console.log toInsert
-  
+
   for key of toInsert
     console.log 'insert key=' + key + ' value=' +  JSON.stringify(toInsert[key])
     client.set key, JSON.stringify(toInsert[key]), redis.print
@@ -86,7 +86,7 @@ exports.parseRes = (res) ->
   return ret
 
 
-# 本文に対して、nameのアイドルを探してパース    
+# 本文に対して、nameのアイドルを探してパース
 # 戻り値は価格
 exports.parseBody = (body, name) ->
   escaped = name.split('+').join('\\+')
