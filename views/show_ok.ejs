@@ -1,0 +1,26 @@
+<h3><%= title %></h3>
+<p> 
+<table>
+<tr>
+<th>価格</th><th>数量</th>
+</tr>
+<%
+  var ary = []; 
+  var price;
+  var elem;
+  for( price in data){
+    var obj = {};
+    obj.price = price;
+    obj.quant = data[price];
+    ary.push(obj);
+  }
+
+  ary.sort(function(a,b){  return a.price - b.price});
+
+  for( key in ary ){
+%>
+<tr><th><%= ary[key].price %></th><th><%= ary[key].quant %></th></tr>
+<% }  %>
+</table>
+</p>
+

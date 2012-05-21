@@ -1,7 +1,0 @@
-httpGet url=http://hayabusa3.2ch.net/appli/subject.txt
-try to convert http://hayabusa3.2ch.net/appli/subject.txt
-begin iconv
-1334771383.dat
-httpGet url=http://hayabusa3.2ch.net/appli/dat/1334771383.dat
-end iconv
-try to convert http://hayabusa3.2ch.net/appli/dat/1334771383.dat
