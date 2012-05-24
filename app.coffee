@@ -1,4 +1,4 @@
-conString = process.env.DATABASE_URL || "tcp://postgres:qeite8bd2@localhost:5432/testdb"; 
+conString = process.env.DATABASE_URL || "tcp://postgres:qeite8bd2@localhost:5432/testdb";
 
 express = require("express")
 routes = require("./routes")
@@ -34,6 +34,12 @@ app.get '/list', show.list
 app.get '/show', show.show
 
 app.get "/", routes.index
+
+app.use (req,res,next) ->
+  res.render '404',{
+    title: 'page not found'
+    status: 404
+  }
 
 port = process.env.PORT || 3000
 app.listen port

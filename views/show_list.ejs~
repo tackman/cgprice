@@ -1,5 +1,0 @@
-<h3></h3>
-<p><% for(var name in list){ %>
-<%- link_to('/show?name=' + encodeURI(name), name) %> <br />
-<% } %>
-</p>
