@@ -28,10 +28,8 @@ exports.getData = (key, callback, onerr) ->
 
 exports.process = (threads) ->
   for thread in threads
-    console.log 'try thread ' + thread.name
     req2ch.getDat thread.dat, (body,url) ->
       result = exports.parse body
-      console.log 'processed ' + url
     ,(err) -> console.log 'error at req2ch.getDat'
 
 # 1つのdatに対して[{'id':'price'}, ...] の配列を返す
@@ -46,10 +44,9 @@ exports.parse = (dat, callback) ->
       for result in results
         ret.push result
     count++
-#    console.log 'res processed ' + count
+
 
   _ret = insertDb ret
-#  console.log _ret
   callback _ret if callback?
   return _ret
 
@@ -63,10 +60,8 @@ insertDb = (ary) ->
       (toInsert[obj.id])[price_n] = 0
     (toInsert[obj.id])[price_n] += 1
 
-#  console.log toInsert
 
   for key of toInsert
-    console.log 'insert key=' + key + ' value=' +  JSON.stringify(toInsert[key])
     client.set key, JSON.stringify(toInsert[key]), redis.print
 
   return toInsert

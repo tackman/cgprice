@@ -14,10 +14,9 @@ exports.render = (req, res) ->
     now = new Date()
     millis = now.getTime()
     if ret? and millis - ret < 3600000     # 本番では1時間
-      console.log 'ret=' + ret + ' millis=' + millis
       res.render 'refresh', {
         title: '更新 - 時間制限中'
-        body: 'データの更新は1時間に1回です。あと' + (3600000 - millis - ret)/1000 + '秒お待ちください。'
+        body: 'データの更新は1時間に1回です。あと' + (3600000 - (millis - ret))/1000 + '秒お待ちください。'
       }
     else
       res.render 'refresh', {
@@ -33,7 +32,6 @@ refresh = () ->
   req2ch.threads (ary) ->
     return if ary.length <= 0
     ary.sort()
-    console.log ary[0].dat
     req2ch.getDat ary[0].dat, (body, url) ->
       redismng.parse body
       client.set 'updateThread', ary[0].dat, redis.print

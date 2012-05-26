@@ -24,23 +24,18 @@ exports.getDat = (dat, callback, err_cb) ->
 
 # SJISのページを取ってきてUTF-8でコールバックに渡す
 exports.httpGet = (url, callback, err_cb) ->
-  console.log 'httpGet url=' + url
   request.get url: url, encoding: 'binary', (err, response, body) ->
     if err?
       err_cb err
       return
     conv = new Iconv 'CP932','UTF-8'
     buf = new Buffer body, 'binary'
-    console.log 'try to convert ' + url
 
     try
-      console.log 'begin iconv'
       body = conv.convert(buf).toString()
       callback body,url
     catch error
       console.log error
-    finally
-      console.log 'end iconv'
 
-func = () ->
-  console.log 'hoge'
+
+

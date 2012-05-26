@@ -15,14 +15,14 @@ exports.show = (req, res) ->
   if req.query.name
     unsp = req.query.name.split(' ').join('+')
     id = idols.table[decodeURI(unsp)]
-  console.log 'id=' + id + ' unsp=' + unsp
+
   if id?
     redismng.getData id, (obj) ->
       res.render 'show_ok', {
         title: unsp + 'のデータ'
         locals:{data: obj, name: unsp}
       }
-      console.log 'getdata callback' + obj
+
     ,(err) ->
       res.render '500', {status: 500}
   else
@@ -30,7 +30,6 @@ exports.show = (req, res) ->
 
 
 exports.list = (req,res) ->
-  console.log 'show_list'
   res.render 'show_list', {
     title: 'アイドル一覧'
     locals: {list: idols.list}
