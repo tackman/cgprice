@@ -7,18 +7,28 @@
 # こちらは正規表現でマッチ「後」のハッシュテーブルなので、制御文字のエスケープは不要
 exports.table = {
 
+# 2ページ
+  '櫻井桃華': 'SakuraiMomoka'
+  '櫻井桃華+': 'SakuraiMomoka+'
+  '江上椿': 'EgamiTsubaki'
+  '江上椿+': 'EgamiTsubaki+'
+
+# 3ページ
+  '［バレンタイン］椎名法子': 'ValentineShinaNoriko'
+  '［バレンタイン］椎名法子+': 'ValentineShinaNoriko+'
   '前川みく': 'MaekawaMiku'
   '前川みく+': 'MaekawaMiku+'
   '赤西瑛梨華': 'AkanishiErika'
   '赤西瑛梨華+': 'AkanishiErika+'
   '松原早耶': 'MatsubaraSaya'
   '松原早耶+': 'MatsubaraSaya+'
+
+
+# 4ページ
   '相原雪乃': 'AiharaYukino'
   '相原雪乃+': 'AiharaYukino+'
   ' 宮本フレデリカ': 'MiyamotoFrederica'
   ' 宮本フレデリカ+': 'MiyamotoFrederica+'
-
-# 4ページ
   '小早川紗枝': 'KobayakawaSae'
   '小早川紗枝+': 'KobayakawaSae+'
   '西園寺琴歌': 'SaionjiKotoka'
@@ -31,12 +41,12 @@ exports.table = {
   '桃井あずき+': 'MomoiAzuki+'
   '涼宮星花': 'SuzumiyaSeika'
   '涼宮星花+': 'SuzumiyaSeika+'
+
+# 5ページ
   '月宮雅': 'TsukimiyaMiyabi'
   '月宮雅+': 'TsukimiyaMiyabi+'
   '兵藤レナ': 'HyodoRena'
   '兵藤レナ+': 'HyodoRena+'
-
-# 5ページ
   '道明寺歌鈴': 'DomyojiKarin'
   '道明寺歌鈴+': 'DomyojiKarin+'
   '高槻やよい': 'TakatsukiYayoi'
@@ -49,12 +59,12 @@ exports.table = {
   '柳清良+': 'YanagiKiyora+'
   '［聖夜］小日向美穂': 'SeiyaKohinataMiho'
   '［聖夜］小日向美穂+': 'SeiyaKohinataMiho+'
+
+# 6
   '井村雪菜': 'ImuraSetsuna'
   '井村雪菜+': 'ImuraSetsuna+'
   '［新春］道明寺歌鈴': 'ShinshunDomyojiKarin'
   '［新春］道明寺歌鈴+': 'ShinshunDomyojiKarin+'
-
-# 6ページ
   '日下部若葉': 'KusakabeWakaba'
   '日下部若葉+': 'KusakabeWakaba+'
   '榊原里美': 'SakakibaraSatomi'
@@ -67,12 +77,12 @@ exports.table = {
   '浅野風香+': 'AsanoFuka+'
   '大西由里子': 'OnishiYuriko'
   '大西由里子+': 'OnishiYuriko+'
+
+# 7
   '［バレンタイン］緒方智絵里': 'ValentineOgataChieri'
   '［バレンタイン］緒方智絵里+': 'ValentineOgataChieri+'
   '安部菜々': 'AbeNana'
   '安部菜々+': 'AbeNana+'
-
-# 7ページ
   '工藤忍': 'KudoShinobu'
   '工藤忍+': 'KudoShinobu+'
   '栗原ネネ': 'KuriharaNene'
@@ -85,8 +95,18 @@ exports.table = {
   '古賀小春+': 'KogaKoharu+'
   '［お花見］中野有香': 'OhanamiNakanoYuka'
   '［お花見］中野有香+': 'OhanamiNakanoYuka+'
+
+# 8
   '［制服コレクション］楊菲菲': 'SeifukucollectionYaoFueiFuei'
   '［制服コレクション］楊菲菲+': 'SeifukucollectionYaoFueiFuei+'
+  '［テーマパーク］柳瀬美由紀': 'ThemeparkYanaseMiyuki'
+  '［テーマパーク］柳瀬美由紀+': 'ThemeparkYanaseMiyuki+'
+  '［ウサコちゃんと］持田亜里沙': 'UsakochantoMochidaArisa'
+  '［ウサコちゃんと］持田亜里沙+': 'UsakochantoMochidaArisa+'
+  '［パジャマパーティー］緒方智絵里': 'PajamapartyOgataChieri'
+  '［パジャマパーティー］緒方智絵里+': 'PajamapartyOgataChieri+'
+  '［パジャマパーティー］間中美里': 'PajamapartyManakaMisato'
+  '［パジャマパーティー］間中美里+': 'PajamapartyManakaMisato+'
   '［沖縄元気っ娘］我那覇響': 'OkinawagenkikkoGanahaHibiki'
   '［沖縄元気っ娘］我那覇響+': 'OkinawagenkikkoGanahaHibiki+'
   '［王子様な女子］菊地真': 'OjisamanajoshiKikuchiMakoto'
@@ -94,7 +114,7 @@ exports.table = {
   '［セクシーキャット］前川みく': 'SexycatMaekawaMiku'
   '［セクシーキャット］前川みく+': 'SexycatMaekawaMiku+'
 
-# 8ページ
+# 9ページ
   '［秘めた輝き］原田美世': 'HimetakagayakiHaradaMiyo'
   '［秘めた輝き］原田美世+': 'HimetakagayakiHaradaMiyo+'
   '［天才ロボ少女］池袋晶葉': 'TensairoboshojoIkebukuroAkiha'
@@ -106,35 +126,59 @@ exports.table = {
   '［戦国姫］小日向美穂+': 'SengokuhimeKohinataMiho+'
   '［薔薇色お姫様］櫻井桃華': 'BarairoohimesamaSakuraiMomoka'
   '［薔薇色お姫様］櫻井桃華+': 'BarairoohimesamaSakuraiMomoka+'
+  '［桜ガール］月宮雅': 'SakuragirlTsukimiyaMiyabi'
+  '［桜ガール］月宮雅+': 'SakuragirlTsukimiyaMiyabi+'
   '［ふわふわスマイル］三村かな子': 'FuwafuwasmileMimuraKanako'
   'SRかな子': 'FuwafuwasmileMimuraKanako'
   '［ふわふわスマイル］三村かな子+': 'FuwafuwasmileMimuraKanako+'
   '［制服ベージュ］天海春香': 'SeifukubeigeAmamiHaruka'
-  '招待春香': 'SeifukubeigeAmamiHaruka'
+  '［王道アイドル］天海春香': 'OudouidolAmamiHaruka'
 
-# 9ページ
+# 10
+  '［王道アイドル］天海春香+': 'OudouidolAmamiHaruka+'
+  '［CDデビュー］三村かな子': 'CDdebutMimuraKanako'
+  '［CDデビュー］三村かな子+': 'CDdebutMimuraKanako+'
+  '［CDデビュー］双葉杏': 'CDdebutFutabaAnzu'
+  '［CDデビュー］双葉杏+': 'CDdebutFutabaAnzu+'
+  '招待春香': 'SeifukubeigeAmamiHaruka'
   '［普通の女の子］天海春香': 'FutsunoonnanokoAmamiHaruka'
   '［普通の女の子］天海春香+': 'FutsunoonnanokoAmamiHaruka'
+
+# 11
   '［制服グリーン］高槻やよい': 'SeifukugreenTakatsukiYayoi'
   '招待やよい': 'SeifukugreenTakatsukiYayoi'
-
-# 10ページ
   '［元気120%］高槻やよい': 'Genki120percentTakatsukiYayoi'
   '［元気120%］高槻やよい+': 'Genki120percentTakatsukiYayoi+'
 
-  
+# other
+  '［大器晩成］道明寺歌鈴': 'TaikibanseiDomyojiKarin'
+  '［大器晩成］道明寺歌鈴+': 'TaikibanseiDomyojiKarin+'
+  'クラリス': 'Clarice'
+  'クラリス+': 'Clarice+'
+
+
 # クール
+# 2
+  '三船美優': 'MifuneMiyu'
+  '三船美優+': 'MifuneMiyu+'
+  '服部瞳子': 'HattoriToko'
+  '服部瞳子+': 'HattoriToko+'
+
 # 3ページ
+  '［バレンタイン］佐々木千枝': 'ValentineSasakiChie'
+  '［バレンタイン］佐々木千枝+': 'ValentineSasakiChie+'
+  '［お花見］相川千夏': 'OhanamiAikawaChinatsu'
+  '［お花見］相川千夏+': 'OhanamiAikawaChinatsu+'
   'ヘレン': 'Helen'
   'ヘレン+': 'Helen+'
   '松永涼': 'MatsunagaRyo'
   '松永涼+': 'MatsunagaRyo+'
   '小室千奈美': 'KomuroChinami'
   '小室千奈美+': 'KomuroChinami+'
+
+# 4
   '高峯のあ': 'TakamineNoa'
   '高峯のあ+': 'TakamineNoa+'
-
-# 4ページ
   '高垣楓': 'TakagakiKaede'
   '高垣楓+': 'TakagakiKaede+'
   '神崎蘭子': 'KanzakiRanko'
@@ -149,10 +193,10 @@ exports.table = {
   'ケイト+': 'Kate+'
   '瀬名詩織': 'SenaShiori'
   '瀬名詩織+': 'SenaShiori+'
+
+# 5
   '綾瀬穂乃香': 'AyaseHonoka'
   '綾瀬穂乃香+': 'AyaseHonoka+'
-
-# 5ページ
   '佐城雪美': 'SajoYukimi'
   '佐城雪美+': 'SajoYukimi+'
   '如月千早': 'KisaragiChihaya'
@@ -167,10 +211,10 @@ exports.table = {
   '篠原礼+': 'ShinoharaRei+'
   '［聖夜］神谷奈緒': 'SeiyaKamiyaNao'
   '［聖夜］神谷奈緒+': 'SeiyaKamiyaNao+'
+
+# 6
   '［新春］東郷あい': 'ShinshunTogoAi'
   '［新春］東郷あい+': 'ShinshunTogoAi+'
-
-# 6ページ
   '和久井留美': 'WakuiRumi'
   '和久井留美+': 'WakuiRumi+'
   '吉岡沙紀': 'YoshiokaSaki'
@@ -185,30 +229,48 @@ exports.table = {
   '氏家むつみ+': 'UjiieMutsumi+'
   '西川保奈美': 'NishikawaHonami'
   '西川保奈美+': 'NishikawaHonami+'
+
+# 7
   '［バレンタイン］多田李衣菜': 'ValentineTadaRina'
   '［バレンタイン］多田李衣菜+': 'ValentineTadaRina+'
-
-# 7ページ
   '成宮由愛': 'NarumiyaYume'
   '成宮由愛+': 'NarumiyaYume+'
   '［ひな祭り］藤居朋': 'HinamatsuriFujiTomo'
   '［ひな祭り］藤居朋+': 'HinamatsuriFujiTomo+'
   '［眼鏡マジック］上条春菜': 'MeganemagicKamijoHaruna'
   '［眼鏡マジック］上条春菜+': 'MeganemagicKamijoHaruna+'
+  '［お花見］水木聖來': 'OhanamiMizukiSeira'
+  '［お花見］水木聖來+': 'OhanaiMizukiSeira+'
   '［制服コレクション］北条加蓮': 'SeifukucollectionHojoKaren'
   '［制服コレクション］北条加蓮+': 'SeifukucollectionHojoKaren'
+  '［制服コレクション］多田李衣菜': 'SeifukucollectionTadaRina'
+  '［制服コレクション］多田李衣菜+': 'SeifukucollectionTadaRina+'
+  '塩見周子': 'ShiomiSyuko'
+  '塩見周子+': 'ShiomiSyuko+'
+
+# 8
+  '脇山珠美': 'WakiyamaTamami'
+  '脇山珠美+': 'WakiyamaTamami+'
+  '［テーマパーク］松永涼': 'ThemeparkMatsunagaRyo'
+  '［テーマパーク］松永涼+': 'ThemeparkMatsunagaRyo+'
+  '［パジャマパーティー］黒川千秋': 'PajamapartyKurokawaChiaki'
+  '［パジャマパーティー］黒川千秋+': 'PajamapartyKurokawaChiaki+'
+  '［パジャマパーティー］川島瑞樹': 'PajamapartyKawashimaMizuki'
+  '［パジャマパーティー］川島瑞樹+': 'PajamapartyKawashimaMizuki+'
+  '岡崎泰葉': 'OkazakiYasuha'
+  '岡崎泰葉+': 'OkazakiYasuha+'
   '［孤高の歌姫］如月千早': 'KokonoutahimeKisaragiChihaya'
   '［孤高の歌姫］如月千早+': 'KokonoutahimeKisaragiChihaya+'
   '［皆のお姉さん］三浦あずさ': 'MinnanoonesanMiuraAzusa'
   '［皆のお姉さん］三浦あずさ+': 'MinnanoonesanMiuraAzusa+'
   '［ニュージェネレーション］渋谷凛': 'NewgenerationShibuyaRin'
   '［ニュージェネレーション］渋谷凛+': 'NewgenerationShibuyaRin+'
+
+# 9
   '［博識子女］古澤頼子': 'HakushikishijoFurusawaYoriko'
   '［博識子女］古澤頼子+': 'HakushikishijoFurusawaYoriko+'
   '［聖なる乙女］望月聖': 'SeinaruotomeMochizukiHijiri'
   '［聖なる乙女］望月聖+': 'SeinaruotomeMochizukiHijiri+'
-
-# 8ページ
   '［エステル衣装］三浦あずさ+': 'EstherishoMiuraAzusa+'
   '［幸運の女神］鷹富士茄子': 'KounnomegamiTakafujiNasuko'
   '［幸運の女神］鷹富士茄子+': 'KounnomegamiTakafujiNasuko+'
@@ -220,27 +282,60 @@ exports.table = {
   '［天使な堕天使］神崎蘭子+': 'TenshinadatenshiKanzakiRanko+'
   '［寡黙の女王］高峯のあ': 'KamokunojooTakamineNoa'
   '［寡黙の女王］高峯のあ+': 'KamokunojooTakamineNoa+'
+  '［ほろ酔い艶美］柊志乃': 'HoroyoiembiHiragiShino'
+
+# 10
+  '［ほろ酔い艶美］柊志乃+': 'HoroyoiembiHiragiShino+'
+  '［神秘の女神］高垣楓': 'ShimpinomegamiTakagakiKaede'
+  '［神秘の女神］高垣楓+': 'ShimpinomegamiTakagakiKaede+'
+  '［CDデビュー］渋谷凛': 'CDdebutShibuyaRin'
+  '［CDデビュー］渋谷凛+': 'CDdebutShibuyaRin+'
+  '［CDデビュー］高垣楓': 'CDdebutTakagakiKaede'
+  '［CDデビュー］高垣楓+': 'CDdebutTakagakiKaede+'
+  '［魔法のスマイル］佐々木千枝': 'MahonosmileSasakiChie'
+  '［魔法のスマイル］佐々木千枝+': 'MahonosmileSasakiChie+'
+  '［スクーリッシュガール］如月千早+': 'SchoolishgirlKisaragiChihaya+'
+  '［恥じらい乙女］神谷奈緒': 'HajiraiotomeKamiyaNao'
+  '［恥じらい乙女］神谷奈緒+': 'HajiraiotomeKamiyaNao+'
   '［制服ブルー］如月千早': 'SeifukublueKisaragiChihaya'
   '招待千早': 'SeifukublueKisaragiChihaya'
+
+# 11
   '［瑠璃の歌姫］如月千早': 'RurinoutahimeKisaragiChihaya'
   '［瑠璃の歌姫］如月千早+': 'RurinoutahimeKisaragiChihaya+'
   '［神秘の女神］高垣楓': 'ShimpinomegamiTakagakiKaede'
   '［神秘の女神］高垣楓+': 'ShimpinomegamiTakagakiKaede+'
 
+# other
+  '［オフスタイルネイビー］和久井留美': 'OffstylenavyWakuiRumi'
+  '［オフスタイルネイビー］和久井留美+': 'OffstylenavyWakuiRumi+'
+  '［麗しの花嫁］和久井留美': 'UruwashinohanayomeWakuiRumi'
+  '［麗しの花嫁］和久井留美+': 'UruwashinohanayomeWakuiRumi+'
+
 # パッション
+# 2
+  '喜多見柚': 'KitamiYuzu'
+  '喜多見柚+': 'KitamiYuzu+'
+  '上田鈴帆': 'UedaSuzuho'
+  '上田鈴帆+': 'UedaSuzuho+'
+
 # 3ページ
+  '［バレンタイン］高森藍子': 'ValentineTakamoriAiko'
+  '［バレンタイン］高森藍子+': 'ValentineTakamoriAiko+'
+  '［お花見］大槻唯': 'OhanamiOtsukiYui'
+  '［お花見］大槻唯+': 'OhanamiOtsukiYui+'
   '相葉夕美': 'AibaYumi'
   '相葉夕美+': 'AibaYumi+'
   '野々村そら': 'NonomuraSora'
   '野々村そら+': 'NonomuraSora+'
+
+# 4
   '浜川愛結奈': 'HamakawaAyuna'
   '浜川愛結奈+': 'HamakawaAyuna+'
   '若林智香': 'WakabayashiTomoka'
   '若林智香+': 'WakabayashiTomoka+'
   '城ヶ崎美嘉': 'JougasakiMika'
   '城ヶ崎美嘉+': 'JougasakiMika+'
-
-# 4ページ
   '城ヶ崎莉嘉': 'JougasakiRika'
   '城ヶ崎莉嘉+': 'JougasakiRika+'
   '仙崎恵磨': 'SenzakiEma'
@@ -251,6 +346,8 @@ exports.table = {
   '諸星きらり+': 'MoroboshiKirari+'
   '十時愛梨': 'TotokiAiri'
   '十時愛梨+': 'TotokiAiri+'
+
+# 5
   'ナターリア': 'Natalia'
   'ナターリア+': 'Natalia+'
   '相馬夏美': 'SomaNatsumi'
@@ -259,8 +356,6 @@ exports.table = {
   '槙原志保+': 'MakiharaShiho+'
   '萩原雪歩': 'HagiwaraYukiho'
   '萩原雪歩+': 'HagiwaraYukiho+'
-
-# 5ページ
   '双海亜美': 'FutamiAmi'
   '双海亜美+': 'FutamiAmi+'
   '双海真美': 'FutamiMami'
@@ -269,6 +364,8 @@ exports.table = {
   '星井美希+': 'HoshiiMiki+'
   '向井拓海': 'MukaiTakumi'
   '向井拓海+': 'MukaiTakumi+'
+
+# 6
   '水瀬伊織': 'MinaseIori'
   '水瀬伊織+': 'MinaseIori+'
   '［聖夜］ナターリア': 'SeiyaNatalia'
@@ -277,8 +374,6 @@ exports.table = {
   '［新春］龍崎薫+': 'ShinshunRyuzakiKaoru'
   '市原仁奈': 'IchiharaNina'
   '市原仁奈+': 'IchiharaNina'
-
-# 6ページ
   '杉坂海': 'SugisakaUmi'
   '杉坂海+': 'SugisakaUmi+'
   '喜多日菜子': 'KitaHinako'
@@ -287,48 +382,88 @@ exports.table = {
   '北川真尋+': 'KitagawaMahiro+'
   'メアリー･コクラン': 'MaryCochran'
   'メアリー･コクラン+': 'MaryCochran+'
+
+# 7
   '小松伊吹': 'KomatsuIbuki'
   '小松伊吹+': 'KomatsuIbuki+'
   '［バレンタイン］赤城みりあ': 'ValentineAkagiMiria'
   '［バレンタイン］赤城みりあ+': 'ValentineAkagiMiria+'
   '三好紗南': 'MiyoshiSana'
   '三好紗南+': 'MiyoshiSana+'
-
-# 7ページ
   'キャシー･グラハム': 'CathyGraham'
   'キャシー･グラハム+': 'CathyGraham+'
   '［ひな祭り］上田鈴帆': 'HinamatsuriUedaSuzuho'
   '［ひな祭り］上田鈴帆+': 'HinamatsuriUedaSuzuho+'
   '難波笑美': 'NambaEmi'
   '難波笑美+': 'NambaEmi'
+  '［お花見］姫川友紀': 'OhanamiHimekawaYuki'
+  '［お花見］姫川友紀+': 'OhanamiHimekawaYuki+'
+  '［制服コレクション］木村夏樹': 'SeifukucollectionKimuraNatsuki'
+  '［制服コレクション］木村夏樹+': 'SeifukucollectionKimuraNatsuki+'
+
+# 8
+  '［制服コレクション］矢口美羽': 'SeifukucollectionYaguchiMiu'
+  '［制服コレクション］矢口美羽+': 'SeifukucollectionYaguchiMiu+'
+  '浜口あやめ': 'HamaguchiAyame'
+  '浜口あやめ+': 'HamaguchiAyame+'
+  '［フラワーブーケ］相葉夕美': 'FlowerbouquetAibaYumi'
+  '［フラワーブーケ］相葉夕美+': 'FlowerbouquetAibaYumi+'
+  '［テーマパーク］斉藤洋子': 'ThemeparkSaitoYoko'
+  '［テーマパーク］斉藤洋子+': 'ThemeparkSaitoYoko+'
+  '［パジャマパーティー］若林智香': 'PajamapartyWakabayashiTomoka'
+  '［パジャマパーティー］若林智香+': 'PajamapartyWakabayashiTomoka+'
   '［高飛車お嬢様］水瀬伊織': 'TakabishaojosamaMinaseIori'
   '［高飛車お嬢様］水瀬伊織+': 'TakabishaojosamaMinaseIori+'
   '［臆病な天使］萩原雪歩': 'OkubyonatenshiHagiwaraYukiho'
   '［臆病な天使］萩原雪歩+': 'OkubyonatenshiHagiwaraYukiho+'
   '［小さな英雄］南条光': 'ChiisanaeiyuNanjoHikaru'
   '［小さな英雄］南条光+': 'ChiisanaeiyuNanjoHikaru+'
+
+# 9
   '［聖夜の使者］イヴ・サンタクロース': 'SeiyanoshishaEveSantaclaus'
   '［聖夜の使者］イヴ・サンタクロース+': 'SeiyanoshishaEveSantaclaus+'
   '［ラブリープリンセス］諸星きらり': 'LovelyprincessMoroboshiKirari'
   '［ラブリープリンセス］諸星きらり+': 'LovelyprincessMoroboshiKirari+'
   '［スイートバレンタイン］十時愛梨': 'SweetvalentineTotokiAiri'
   '［スイートバレンタイン］十時愛梨+': 'SweetvalentineTotokiAiri+'
-
-# 8ページ
   '［パワフル双子妹］双海亜美': 'PowerfulfutagoimotoFutamiAmi'
   '［パワフル双子妹］双海亜美+': 'PowerfulfutagoimotoFutamiAmi+'
   '［パワフル双子姉］双海真美': 'PowerfulfutagoaneFutamiMami'
   '［パワフル双子姉］双海真美+': 'PowerfulfutagoaneFutamiMami+'
   '［お転婆ひな娘］喜多見柚': 'OtembahinamusumeKitamiYuzu'
   '［お転婆ひな娘］喜多見柚+': 'OtembahinamusumeKitamiYuzu+'
+  '［CDデビュー］城ヶ崎莉嘉': 'CDdebutJougasakiRika'
+  '［CDデビュー］城ヶ崎莉嘉+': 'CDdebutJougasakiRika+'
+  '［妄想お姫様］喜多日菜子': 'MousouohimesamaKitaHinako'
+  '［妄想お姫様］喜多日菜子+': 'MousouohimesamaKitaHinako+'
+
+# 10
+  '［眠れる姫君］星井美希': 'NemureruhimegimiHoshiiMiki'
+  '［眠れる姫君］星井美希+': 'NemureruhimegimiHoshiiMiki+'
   '［制服オレンジ］星井美希': 'SeifukuorangeHoshiiMiki'
   '招待美希': 'SeifukuorangeHoshiiMiki'
   '［才能無限大］星井美希': 'SainomugendaiHoshiiMiki'
-
-# 9ページ
   '［才能無限大］星井美希+': 'SainomugendaiHoshiiMiki'
+  '［制服ブルー］萩原雪歩': 'SeifukublueHagiwaraYukiho'
+  '招待雪歩': 'SeifukublueHagiwaraYukiho'
+
+# 11
+  '［癒しの天使］萩原雪歩': 'IyashinotenshiHagiwaraYukiho'
+  '［癒しの天使］萩原雪歩+': 'IyashinotenshiHagiwaraYukiho+'
   'ベテラントレーナー': 'VeteranTrainer'
   'マスタートレーナー': 'MasterTrainer'
+  '［聖夜］トレーナー': 'SeiyaTrainer'
+  '［聖夜］ベテラントレーナー': 'SeiyaVeteranTrainer'
+  '［新春］トレーナー': 'ShinshunTrainer'
+  '［新春］ベテラントレーナー': 'ShinshunVeteranTrainer'
+  '［バレンタイン］トレーナー': 'ValentineTrainer'
+
+# 12
+  '［バレンタイン］ベテラントレーナー': 'ValentineVeteranTrainer'
+
+# other
+  '［ふんわりガール］高森藍子': 'FunwarigirlTakamoriAiko'
+  '［ふんわりガール］高森藍子+': 'FunwarigirlTakamoriAiko+'
 
 }
 
@@ -338,19 +473,27 @@ exports.table = {
 # ただし+,[,]だけは全部処理側でエスケープする仕様に変更したよ
 # aliasも全部書くべしし
 exports.list = [
+# 2
+  '櫻井桃華'
+  '櫻井桃華+'
+  '江上椿'
+  '江上椿+'
 
+# 3
+  '［バレンタイン］椎名法子'
+  '［バレンタイン］椎名法子+'
   '前川みく'
   '前川みく+'
   '赤西瑛梨華'
   '赤西瑛梨華+'
   '松原早耶'
   '松原早耶+'
+
+# 4
   '相原雪乃'
   '相原雪乃+'
   ' 宮本フレデリカ'
   ' 宮本フレデリカ+'
-
-# 4ページ
   '小早川紗枝'
   '小早川紗枝+'
   '西園寺琴歌'
@@ -363,12 +506,12 @@ exports.list = [
   '桃井あずき+'
   '涼宮星花'
   '涼宮星花+'
+
+# 5
   '月宮雅'
   '月宮雅+'
   '兵藤レナ'
   '兵藤レナ+'
-
-# 5ページ
   '道明寺歌鈴'
   '道明寺歌鈴+'
   '高槻やよい'
@@ -381,12 +524,12 @@ exports.list = [
   '柳清良+'
   '［聖夜］小日向美穂'
   '［聖夜］小日向美穂+'
+
+# 6
   '井村雪菜'
   '井村雪菜+'
   '［新春］道明寺歌鈴'
   '［新春］道明寺歌鈴+'
-
-# 6ページ
   '日下部若葉'
   '日下部若葉+'
   '榊原里美'
@@ -399,12 +542,12 @@ exports.list = [
   '浅野風香+'
   '大西由里子'
   '大西由里子+'
+
+# 7
   '［バレンタイン］緒方智絵里'
   '［バレンタイン］緒方智絵里+'
   '安部菜々'
   '安部菜々+'
-
-# 7ページ
   '工藤忍'
   '工藤忍+'
   '栗原ネネ'
@@ -417,8 +560,18 @@ exports.list = [
   '古賀小春+'
   '［お花見］中野有香'
   '［お花見］中野有香+'
+
+# 8
   '［制服コレクション］楊菲菲'
   '［制服コレクション］楊菲菲+'
+  '［テーマパーク］柳瀬美由紀'
+  '［テーマパーク］柳瀬美由紀+'
+  '［ウサコちゃんと］持田亜里沙'
+  '［ウサコちゃんと］持田亜里沙+'
+  '［パジャマパーティー］緒方智絵里'
+  '［パジャマパーティー］緒方智絵里+'
+  '［パジャマパーティー］間中美里'
+  '［パジャマパーティー］間中美里+'
   '［沖縄元気っ娘］我那覇響'
   '［沖縄元気っ娘］我那覇響+'
   '［王子様な女子］菊地真'
@@ -426,7 +579,7 @@ exports.list = [
   '［セクシーキャット］前川みく'
   '［セクシーキャット］前川みく+'
 
-# 8ページ
+# 9
   '［秘めた輝き］原田美世'
   '［秘めた輝き］原田美世+'
   '［天才ロボ少女］池袋晶葉'
@@ -437,35 +590,58 @@ exports.list = [
   '［戦国姫］小日向美穂+'
   '［薔薇色お姫様］櫻井桃華'
   '［薔薇色お姫様］櫻井桃華+'
+  '［桜ガール］月宮雅'
+  '［桜ガール］月宮雅+'
   '［ふわふわスマイル］三村かな子'
   'SRかな子'
   '［ふわふわスマイル］三村かな子+'
+  '［王道アイドル］天海春香'
+
+#10
+  '［王道アイドル］天海春香+'
+  '［CDデビュー］三村かな子'
+  '［CDデビュー］三村かな子+'
+  '［CDデビュー］双葉杏'
+  '［CDデビュー］双葉杏+'
   '［制服ベージュ］天海春香'
   '招待春香'
-
-# 9ページ
   '［普通の女の子］天海春香'
   '［普通の女の子］天海春香+'
+
+# 11
   '［制服グリーン］高槻やよい'
   '招待やよい'
-
-# 10ページ
   '［元気120%］高槻やよい'
   '［元気120%］高槻やよい+'
 
-  
+# other
+  'クラリス'
+  'クラリス+'
+  '［大器晩成］道明寺歌鈴'
+  '［大器晩成］道明寺歌鈴+'
+
 # クール
+# 2
+  '三船美優'
+  '三船美優+'
+  '服部瞳子'
+  '服部瞳子+'
+
 # 3ページ
+  '［バレンタイン］佐々木千枝'
+  '［バレンタイン］佐々木千枝+'
+  '［お花見］相川千夏'
+  '［お花見］相川千夏+'
   'ヘレン'
   'ヘレン+'
   '松永涼'
   '松永涼+'
   '小室千奈美'
   '小室千奈美+'
+
+# 4
   '高峯のあ'
   '高峯のあ+'
-
-# 4ページ
   '高垣楓'
   '高垣楓+'
   '神崎蘭子'
@@ -480,10 +656,10 @@ exports.list = [
   'ケイト+'
   '瀬名詩織'
   '瀬名詩織+'
+
+# 5
   '綾瀬穂乃香'
   '綾瀬穂乃香+'
-
-# 5ページ
   '佐城雪美'
   '佐城雪美+'
   '如月千早'
@@ -498,10 +674,10 @@ exports.list = [
   '篠原礼+'
   '［聖夜］神谷奈緒'
   '［聖夜］神谷奈緒+'
+
+# 6
   '［新春］東郷あい'
   '［新春］東郷あい+'
-
-# 6ページ
   '和久井留美'
   '和久井留美+'
   '吉岡沙紀'
@@ -516,10 +692,10 @@ exports.list = [
   '氏家むつみ+'
   '西川保奈美'
   '西川保奈美+'
+
+# 7
   '［バレンタイン］多田李衣菜'
   '［バレンタイン］多田李衣菜+'
-
-# 7ページ
   '成宮由愛'
   '成宮由愛+'
   '［ひな祭り］藤居朋'
@@ -528,18 +704,34 @@ exports.list = [
   '［眼鏡マジック］上条春菜+'
   '［制服コレクション］北条加蓮'
   '［制服コレクション］北条加蓮+'
+  '［制服コレクション］多田李衣菜'
+  '［制服コレクション］多田李衣菜+'
+  '塩見周子'
+  '塩見周子+'
+
+# 8
+  '脇山珠美'
+  '脇山珠美+'
+  '［テーマパーク］松永涼'
+  '［テーマパーク］松永涼+'
+  '［パジャマパーティー］黒川千秋'
+  '［パジャマパーティー］黒川千秋+'
+  '［パジャマパーティー］川島瑞樹'
+  '［パジャマパーティー］川島瑞樹+'
+  '岡崎泰葉'
+  '岡崎泰葉+'
   '［孤高の歌姫］如月千早'
   '［孤高の歌姫］如月千早+'
   '［皆のお姉さん］三浦あずさ'
   '［皆のお姉さん］三浦あずさ+'
   '［ニュージェネレーション］渋谷凛'
   '［ニュージェネレーション］渋谷凛+'
+
+# 9
   '［博識子女］古澤頼子'
   '［博識子女］古澤頼子+'
   '［聖なる乙女］望月聖'
   '［聖なる乙女］望月聖+'
-
-# 8ページ
   '［エステル衣装］三浦あずさ+'
   '［幸運の女神］鷹富士茄子'
   '［幸運の女神］鷹富士茄子+'
@@ -551,27 +743,57 @@ exports.list = [
   '［天使な堕天使］神崎蘭子+'
   '［寡黙の女王］高峯のあ'
   '［寡黙の女王］高峯のあ+'
-  '［制服ブルー］如月千早'
-  '招待千早'
-  '［瑠璃の歌姫］如月千早'
-  '［瑠璃の歌姫］如月千早+'
+  '［ほろ酔い艶美］柊志乃'
+
+# 10
+  '［ほろ酔い艶美］柊志乃+'
   '［神秘の女神］高垣楓'
   '［神秘の女神］高垣楓+'
+  '［CDデビュー］渋谷凛'
+  '［CDデビュー］渋谷凛+'
+  '［CDデビュー］高垣楓'
+  '［CDデビュー］高垣楓+'
+  '［魔法のスマイル］佐々木千枝'
+  '［魔法のスマイル］佐々木千枝+'
+  '［スクーリッシュガール］如月千早+'
+  '［恥じらい乙女］神谷奈緒'
+  '［恥じらい乙女］神谷奈緒+'
+  '［制服ブルー］如月千早'
+  '招待千早'
+
+# 11
+  '［瑠璃の歌姫］如月千早'
+  '［瑠璃の歌姫］如月千早+'
+
+# other
+  '［オフスタイルネイビー］和久井留美'
+  '［麗しの花嫁］和久井留美'
+  '［麗しの花嫁］和久井留美+'
 
 # パッション
+# 2
+  '喜多見柚'
+  '喜多見柚+'
+  '上田鈴帆'
+  '上田鈴帆+'
+
 # 3ページ
+  '［バレンタイン］高森藍子'
+  '［バレンタイン］高森藍子+'
+  '［お花見］大槻唯'
+  '［お花見］大槻唯+'
   '相葉夕美'
   '相葉夕美+'
   '野々村そら'
   '野々村そら+'
+
+# 4
   '浜川愛結奈'
   '浜川愛結奈+'
   '若林智香'
   '若林智香+'
   '城ヶ崎美嘉'
   '城ヶ崎美嘉+'
-
-# 4ページ
   '城ヶ崎莉嘉'
   '城ヶ崎莉嘉+'
   '仙崎恵磨'
@@ -582,6 +804,8 @@ exports.list = [
   '諸星きらり+'
   '十時愛梨'
   '十時愛梨+'
+
+# 5
   'ナターリア'
   'ナターリア+'
   '相馬夏美'
@@ -598,6 +822,8 @@ exports.list = [
   '星井美希+'
   '向井拓海'
   '向井拓海+'
+
+# 6
   '水瀬伊織'
   '水瀬伊織+'
   '［聖夜］ナターリア'
@@ -606,8 +832,6 @@ exports.list = [
   '［新春］龍崎薫+'
   '市原仁奈'
   '市原仁奈+'
-
-# 6ページ
   '杉坂海'
   '杉坂海+'
   '喜多日菜子'
@@ -616,61 +840,112 @@ exports.list = [
   '北川真尋+'
   'メアリー･コクラン'
   'メアリー･コクラン+'
+
+# 7
   '小松伊吹'
   '小松伊吹+'
   '［バレンタイン］赤城みりあ'
   '［バレンタイン］赤城みりあ+'
   '三好紗南'
   '三好紗南+'
-
-# 7ページ
   'キャシー･グラハム'
   'キャシー･グラハム+'
   '［ひな祭り］上田鈴帆'
   '［ひな祭り］上田鈴帆+'
   '難波笑美'
   '難波笑美+'
+  '［お花見］姫川友紀'
+  '［お花見］姫川友紀+'
+  '［制服コレクション］木村夏樹'
+  '［制服コレクション］木村夏樹+'
+
+# 8
+  '［制服コレクション］矢口美羽'
+  '［制服コレクション］矢口美羽+'
+  '浜口あやめ'
+  '浜口あやめ+'
+  '［フラワーブーケ］相葉夕美'
+  '［フラワーブーケ］相葉夕美+'
+  '［テーマパーク］斉藤洋子'
+  '［テーマパーク］斉藤洋子+'
+  '［パジャマパーティー］若林智香'
+  '［パジャマパーティー］若林智香+'
   '［高飛車お嬢様］水瀬伊織'
   '［高飛車お嬢様］水瀬伊織+'
   '［臆病な天使］萩原雪歩'
   '［臆病な天使］萩原雪歩+'
   '［小さな英雄］南条光'
   '［小さな英雄］南条光+'
+
+# 9
   '［聖夜の使者］イヴ・サンタクロース'
   '［聖夜の使者］イヴ・サンタクロース+'
   '［ラブリープリンセス］諸星きらり'
   '［ラブリープリンセス］諸星きらり+'
   '［スイートバレンタイン］十時愛梨'
   '［スイートバレンタイン］十時愛梨+'
-
-# 8ページ
   '［パワフル双子妹］双海亜美'
   '［パワフル双子妹］双海亜美+'
   '［パワフル双子姉］双海真美'
   '［パワフル双子姉］双海真美+'
   '［お転婆ひな娘］喜多見柚'
   '［お転婆ひな娘］喜多見柚+'
+  '［CDデビュー］城ヶ崎莉嘉'
+  '［CDデビュー］城ヶ崎莉嘉+'
+  '［妄想お姫様］喜多日菜子'
+  '［妄想お姫様］喜多日菜子+'
+
+
+# 10
+  '［眠れる姫君］星井美希'
+  '［眠れる姫君］星井美希+'
   '［制服オレンジ］星井美希'
   '招待美希'
   '［才能無限大］星井美希'
-
-# 9ページ
   '［才能無限大］星井美希+'
+  '［制服ブルー］萩原雪歩'
+  '招待雪歩'
+
+# 11
+  '［癒しの天使］萩原雪歩'
+  '［癒しの天使］萩原雪歩+'
   'ベテラントレーナー'
   'マスタートレーナー'
+  '［聖夜］トレーナー'
+  '［聖夜］ベテラントレーナー'
+  '［新春］トレーナー'
+  '［新春］ベテラントレーナー'
+  '［バレンタイン］トレーナー'
+
+# 12
+  '［バレンタイン］ベテラントレーナー'
+
+# other
+  '［ふんわりガール］高森藍子'
+  '［ふんわりガール］高森藍子+'
 ]
 
 
 
 # id一覧
 exports.ids = [
+# 2
+  'SakuraiMomoka'
+  'SakuraiMomoka+'
+  'EgamiTsubaki'
+  'EgamiTsubaki+'
+
 # 3ページ目
+  'ValentineShinaNoriko'
+  'ValentineShinaNoriko+'
   'MaekawaMiku'
   'MaekawaMiku+'
   'AkanishiErika'
   'AkanishiErika+'
   'MatsubaraSaya'
   'MatsubaraSaya+'
+
+# 4
   'AiharaYukino'
   'AiharaYukino+'
   'MiyamotoFrederica'
@@ -687,12 +962,12 @@ exports.ids = [
   'MomoiAzuki+'
   'SuzumiyaSeika'
   'SuzumiyaSeika+'
+
+# 5
   'TsukimiyaMiyabi'
   'TsukimiyaMiyabi+'
   'HyodoRena'
   'HyodoRena+'
-
-# 5ページ
   'DomyojiKarin'
   'DomyojiKarin+'
   'TakatsukiYayoi'
@@ -705,12 +980,12 @@ exports.ids = [
   'YanagiKiyora+'
   'SeiyaKohinataMiho'
   'SeiyaKohinataMiho+'
+
+# 6
   'ImuraSetsuna'
   'ImuraSetsuna+'
   'ShinshunDomyojiKarin'
   'ShinshunDomyojiKarin+'
-
-# 6ページ
   'KusakabeWakaba'
   'KusakabeWakaba+'
   'SakakibaraSatomi'
@@ -723,12 +998,12 @@ exports.ids = [
   'AsanoFuka+'
   'OnishiYuriko'
   'OnishiYuriko+'
+
+# 7
   'ValentineOgataChieri'
   'ValentineOgataChieri+'
   'AbeNana'
   'AbeNana+'
-
-# 7ページ
   'KudoShinobu'
   'KudoShinobu+'
   'KuriharaNene'
@@ -741,8 +1016,18 @@ exports.ids = [
   'KogaKoharu+'
   'OhanamiNakanoYuka'
   'OhanamiNakanoYuka+'
+
+# 8
   'SeifukucollectionYaoFueiFuei'
   'SeifukucollectionYaoFueiFuei+'
+  'ThemeparkYanaseMiyuki'
+  'ThemeparkYanaseMiyuki+'
+  'UsakochantoMochidaArisa'
+  'UsakochantoMochidaArisa+'
+  'PajamapartyOgataChieri'
+  'PajamapartyOgataChieri+'
+  'PajamapartyManakaMisato'
+  'PajamapartyManakaMisato+'
   'OkinawagenkikkoGanahaHibiki'
   'OkinawagenkikkoGanahaHibiki+'
   'OjisamanajoshiKikuchiMakoto'
@@ -750,7 +1035,7 @@ exports.ids = [
   'SexycatMaekawaMiku'
   'SexycatMaekawaMiku+'
 
-# 8ページ
+# 9ページ
   'HimetakagayakiHaradaMiyo'
   'HimetakagayakiHaradaMiyo+'
   'TensairoboshojoIkebukuroAkiha'
@@ -762,27 +1047,56 @@ exports.ids = [
   'SengokuhimeKohinataMiho+'
   'BarairoohimesamaSakuraiMomoka'
   'BarairoohimesamaSakuraiMomoka+'
+  'SakuragirlTsukimiyaMiyabi'
+  'SakuragirlTsukimiyaMiyabi+'
   'FuwafuwasmileMimuraKanako'
   'FuwafuwasmileMimuraKanako+'
+  'OudouidolAmamiHaruka'
+
+# 10
+  'OudouidolAmamiHaruka+'
+  'CDdebutMimuraKanako'
+  'CDdebutMimuraKanako+'
+  'CDdebutFutabaAnzu'
+  'CDdebutFutabaAnzu+'
   'SeifukubeigeAmamiHaruka'
   'FutsunoonnanokoAmamiHaruka'
   'FutsunoonnanokoAmamiHaruka+'
+
+# 11
   'SeifukugreenTakatsukiYayoi'
   'Genki120percentTakatsukiYayoi'
   'Genki120percentTakatsukiYayoi+'
 
+# other
+  'Clarice'
+  'Clarice+'
+  'TaikibanseiDomyojiKarin'
+  'TaikibanseiDomyojiKarin+'
+
+
 # クール
+# 2
+  'MifuneMiyu'
+  'MifuneMiyu+'
+  'HattoriToko'
+  'HattoriToko+'
+
 # 3ページ
+  'ValentineSasakiChie'
+  'ValentineSasakiChie+'
+  'OhanamiAikawaChinatsu'
+  'OhanamiAikawaChinatsu+'
   'Helen'
   'Helen+'
   'MatsunagaRyo'
   'MatsunagaRyo+'
   'KomuroChinami'
   'KomuroChinami+'
+
+# 4
   'TakamineNoa'
   'TakamineNoa+'
-
-# 4ページ
   'TakagakiKaede'
   'TakagakiKaede+'
   'KanzakiRanko'
@@ -797,10 +1111,10 @@ exports.ids = [
   'Kate+'
   'SenaShiori'
   'SenaShiori+'
+
+# 5
   'AyaseHonoka'
   'AyaseHonoka+'
-
-# 5ページ
   'SajoYukimi'
   'SajoYukimi+'
   'KisaragiChihaya'
@@ -815,10 +1129,10 @@ exports.ids = [
   'ShinoharaRei+'
   'SeiyaKamiyaNao'
   'SeiyaKamiyaNao+'
+
+# 6
   'ShinshunTogoAi'
   'ShinshunTogoAi+'
-
-# 6ページ
   'WakuiRumi'
   'WakuiRumi+'
   'YoshiokaSaki'
@@ -833,10 +1147,10 @@ exports.ids = [
   'UjiieMutsumi+'
   'NishikawaHonami'
   'NishikawaHonami+'
+
+# 7
   'ValentineTadaRina'
   'ValentineTadaRina+'
-
-# 7ページ
   'NarumiyaYume'
   'NarumiyaYume+'
   'HinamatsuriFujiTomo'
@@ -845,18 +1159,34 @@ exports.ids = [
   'MeganemagicKamijoHaruna+'
   'SeifukucollectionHojoKaren'
   'SeifukucollectionHojoKaren+'
+  'SeifukucollectionTadaRina'
+  'SeifukucollectionTadaRina+'
+  'ShiomiSyuko'
+  'ShiomiSyuko+'
+
+# 8
+  'WakiyamaTamami'
+  'WakiyamaTamami+'
+  'ThemeparkMatsunagaRyo'
+  'ThemeparkMatsunagaRyo+'
+  'PajamapartyKurokawaChiaki'
+  'PajamapartyKurokawaChiaki+'
+  'PajamapartyKawashimaMizuki'
+  'PajamapartyKawashimaMizuki+'
+  'OkazakiYasuha'
+  'OkazakiYasuha+'
   'KokonoutahimeKisaragiChihaya'
   'KokonoutahimeKisaragiChihaya+'
   'MinnanoonesanMiuraAzusa'
   'MinnanoonesanMiuraAzusa+'
   'NewgenerationShibuyaRin'
   'NewgenerationShibuyaRin+'
+
+# 9
   'HakushikishijoFurusawaYoriko'
   'HakushikishijoFurusawaYoriko+'
   'SeinaruotomeMochizukiHijiri'
   'SeinaruotomeMochizukiHijiri+'
-
-# 8ページ
   'EstherishoMiuraAzusa+'
   'KounnomegamiTakafujiNasuko'
   'KounnomegamiTakafujiNasuko+'
@@ -868,28 +1198,59 @@ exports.ids = [
   'TenshinadatenshiKanzakiRanko+'
   'KamokunojooTakamineNoa'
   'KamokunojooTakamineNoa+'
-  'SeifukublueKisaragiChihaya'
+  'HoroyoiembiHiragiShino'
 
-# 9ページ
-  'RurinoutahimeKisaragiChihaya'
-  'RurinoutahimeKisaragiChihaya+'
+# 10
+  'HoroyoiembiHiragiShino+'
+  'SeifukublueKisaragiChihaya'
   'ShimpinomegamiTakagakiKaede'
   'ShimpinomegamiTakagakiKaede+'
+  'CDdebutShibuyaRin'
+  'CDdebutShibuyaRin+'
+  'CDdebutTakagakiKaede'
+  'CDdebutTakagakiKaede+'
+  'MahonosmileSasakiChie'
+  'MahonosmileSasakiChie+'
+  'SchoolishgirlKisaragiChihaya+'
+  'HajiraiotomeKamiyaNao'
+  'HajiraiotomeKamiyaNao+'
+  'SeifukublueKisaragiChihaya'
+
+# 11
+  'RurinoutahimeKisaragiChihaya'
+  'RurinoutahimeKisaragiChihaya+'
+
+# 12
+  'OffstylenavyWakuiRumi'
+  'UruwashinohanayomeWakuiRumi'
+  'UruwashinohanayomeWakuiRumi+'
+
+
 
 # パッション
+# 2
+  'KitamiYuzu'
+  'KitamiYuzu+'
+  'UedaSuzuho'
+  'UedaSuzuho+'
+
 # 3ページ
+  'ValentineTakamoriAiko'
+  'ValentineTakamoriAiko+'
+  'OhanamiOtsukiYui'
+  'OhanamiOtsukiYui+'
   'AibaYumi'
   'AibaYumi+'
   'NonomuraSora'
   'NonomuraSora+'
+
+# 4
   'HamakawaAyuna'
   'HamakawaAyuna+'
   'WakabayashiTomoka'
   'WakabayashiTomoka+'
   'JougasakiMika'
   'JougasakiMika+'
-
-# 4ページ
   'JougasakiRika'
   'JougasakiRika+'
   'SenzakiEma'
@@ -900,6 +1261,8 @@ exports.ids = [
   'MoroboshiKirari+'
   'TotokiAiri'
   'TotokiAiri+'
+
+# 5
   'Natalia'
   'Natalia+'
   'SomaNatsumi'
@@ -908,8 +1271,6 @@ exports.ids = [
   'MakiharaShiho+'
   'HagiwaraYukiho'
   'HagiwaraYukiho+'
-
-# 5ページ
   'FutamiAmi'
   'FutamiAmi+'
   'FutamiMami'
@@ -918,6 +1279,8 @@ exports.ids = [
   'HoshiiMiki+'
   'MukaiTakumi'
   'MukaiTakumi+'
+
+# 6
   'MinaseIori'
   'MinaseIori+'
   'SeiyaNatalia'
@@ -926,55 +1289,93 @@ exports.ids = [
   'ShinshunRyuzakiKaoru+'
   'IchiharaNina'
   'IchiharaNina+'
-
-# 6ページ
   'SugisakaUmi'
- 'SugisakaUmi+'
+  'SugisakaUmi+'
   'KitaHinako'
   'KitaHinako+'
   'KitagawaMahiro'
   'KitagawaMahiro+'
   'MaryCochran'
   'MaryCochran+'
+
+# 7
   'KomatsuIbuki'
   'KomatsuIbuki+'
   'ValentineAkagiMiria'
   'ValentineAkagiMiria+'
   'MiyoshiSana'
   'MiyoshiSana+'
-
-# 7ページ
   'CathyGraham'
   'CathyGraham+'
   'HinamatsuriUedaSuzuho'
   'HinamatsuriUedaSuzuho+'
   'NambaEmi'
   'NambaEmi+'
+  'OhanamiHimekawaYuki'
+  'OhanamiHimekawaYuki+'
+  'SeifukucollectionKimuraNatsuki'
+  'SeifukucollectionKimuraNatsuki+'
+
+# 8
+  'SeifukucollectionYaguchiMiu'
+  'SeifukucollectionYaguchiMiu+'
+  'HamaguchiAyame'
+  'HamaguchiAyame+'
+  'FlowerbouquetAibaYumi'
+  'FlowerbouquetAibaYumi+'
+  'ThemeparkSaitoYoko'
+  'ThemeparkSaitoYoko+'
+  'PajamapartyWakabayashiTomoka'
+  'PajamapartyWakabayashiTomoka+'
   'TakabishaojosamaMinaseIori'
   'TakabishaojosamaMinaseIori+'
   'OkubyonatenshiHagiwaraYukiho'
   'OkubyonatenshiHagiwaraYukiho+'
   'ChiisanaeiyuNanjoHikaru'
   'ChiisanaeiyuNanjoHikaru+'
+
+# 9
   'SeiyanoshishaEveSantaclaus'
   'SeiyanoshishaEveSantaclaus+'
   'LovelyprincessMoroboshiKirari'
   'LovelyprincessMoroboshiKirari+'
   'SweetvalentineTotokiAiri'
   'SweetvalentineTotokiAiri+'
-
-# 8ページ
   'PowerfulfutagoimotoFutamiAmi'
   'PowerfulfutagoimotoFutamiAmi+'
   'PowerfulfutagoaneFutamiMami'
   'PowerfulfutagoaneFutamiMami+'
   'OtembahinamusumeKitamiYuzu'
   'OtembahinamusumeKitamiYuzu+'
+  'CDdebutJougasakiRika'
+  'CDdebutJougasakiRika+'
+  'MousouohimesamaKitaHinako'
+  'MousouohimesamaKitaHinako+'
+
+# 10
+  'NemureruhimegimiHoshiiMiki'
+  'NemureruhimegimiHoshiiMiki+'
   'SeifukuorangeHoshiiMiki'
   'SainomugendaiHoshiiMiki'
-
-# 9ページ
   'SainomugendaiHoshiiMiki+'
+  'SeifukublueHagiwaraYukiho'
+
+# 11
+  'IyashinotenshiHagiwaraYukiho'
+  'IyashinotenshiHagiwaraYukiho+'
   'VeteranTrainer'
   'MasterTrainer'
+  'SeiyaTrainer'
+  'SeiyaVeteranTrainer'
+  'ShinshunTrainer'
+  'ShinshunVeteranTrainer'
+  'ValentineTrainer'
+
+# 12
+  'ValentineVeteranTrainer'
+
+# other
+  'FunwarigirlTakamoriAiko'
+  'FunwarigirlTakamoriAiko+'
+
 ]
