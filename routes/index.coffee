@@ -1,3 +1,3 @@
 exports.index = (req, res) ->
   res.render "index",
-    title: "Express with CoffeeScript"
+    title: "cgprice - シンデレラガールズ相場サイト"
