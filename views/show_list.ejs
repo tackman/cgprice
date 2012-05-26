@@ -1,7 +1,10 @@
-<h3></h3>
-<p><% 
-for(var i=0; i < list.length; ++i){
-   name = list[i]%>
-<div class="span2"><a href="/show?name=<%- encodeURI(name)  %>"><%- name  %></div>
+<h3>対応しているアイドル名一覧</h3>
+<%
+var name;
+var enc;
+var i;
+for(i=0; i < list.length; ++i){
+   name = list[i];
+   enc = encodeURI(name); %>
+<div class="span2"><a href="/show?name=<%- enc  %>"><%- name  %></div>
 <% } %>
-</p>

@@ -1,5 +1,3 @@
-conString = process.env.DATABASE_URL || "tcp://postgres:qeite8bd2@localhost:5432/testdb";
-
 express = require("express")
 routes = require("./routes")
 debug = require './routes/debug'
@@ -7,9 +5,6 @@ refresh = require './routes/refresh'
 show = require './routes/show'
 app = module.exports = express.createServer()
 
-pg = require 'pg'
-pg.connect conString, (err,client) ->
-  console.log err?
 
 app.configure ->
   app.set "views", __dirname + "/views"
