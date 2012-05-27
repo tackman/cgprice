@@ -110,4 +110,21 @@ exports.parseBody = (body, name) ->
       return RegExp.$2
     else if line.match reg2
       return RegExp.$1
+
+  name2 = name.split('［').join('[')
+  name2 = name2.split('］').join(']')
+  escaped2 = escaped.split('［').join('\\[')
+  escaped2 = escaped2.split('］').join('\\]')
+  reg1 = new RegExp '(' + escaped2 + '[^\\+]).*([0-9]+\\.?[0-9]*)'
+  reg2 = new RegExp '([0-9]+\\.?[0-9]*).*(' + escaped2 + '[^\\+])'
+  for line in lines
+    if line.indexOf(name2) == -1
+      continue
+    if line.match(reg1) and line.match(reg2)
+      continue
+    else if line.match reg1
+      return RegExp.$2
+    else if line.match reg2
+      return RegExp.$1
+
   return null
