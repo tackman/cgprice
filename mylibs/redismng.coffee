@@ -62,7 +62,7 @@ insertDb = (ary) ->
 
 
   for key of toInsert
-    client.set key, JSON.stringify(toInsert[key]), redis.print
+    client.set key, JSON.stringify(toInsert[key]) #, redis.print
 
   return toInsert
 
