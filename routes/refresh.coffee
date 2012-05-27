@@ -14,7 +14,7 @@ exports.render = (req, res) ->
   client.get 'updateTime', (err, ret) ->
     now = new Date()
     millis = now.getTime()
-    if ret? and millis - ret < 36     # 本番では1時間
+    if ret? and millis - ret < 3600000     # 本番では1時間
       res.render 'refresh', {
         title: '更新 - 時間制限中'
         body: 'データの更新は1時間に1回です。あと' + (3600000 - (millis - ret))/1000 + '秒お待ちください。'
