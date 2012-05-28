@@ -464,6 +464,8 @@ exports.table = {
 # other
   '［ふんわりガール］高森藍子': 'FunwarigirlTakamoriAiko'
   '［ふんわりガール］高森藍子+': 'FunwarigirlTakamoriAiko+'
+  '［姉御肌］向井拓海': 'AnegohadaMukaiTakumi'
+  '［姉御肌］向井拓海+': 'AnegohadaMukaiTakumi+'
 
 }
 
@@ -923,6 +925,8 @@ exports.list = [
 # other
   '［ふんわりガール］高森藍子'
   '［ふんわりガール］高森藍子+'
+  '［姉御肌］向井拓海'
+  '［姉御肌］向井拓海+'
 ]
 
 
@@ -1377,5 +1381,7 @@ exports.ids = [
 # other
   'FunwarigirlTakamoriAiko'
   'FunwarigirlTakamoriAiko+'
+  'AnegohadaMukaiTakumi'
+  'AnegohadaMukaiTakumi+'
 
 ]
