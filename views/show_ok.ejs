@@ -8,6 +8,8 @@
   var ary = []; 
   var price;
   var elem;
+  var i;
+  var bar;
   for( price in data){
     var obj = {};
     obj.price = price;
@@ -18,8 +20,14 @@
   ary.sort(function(a,b){  return a.price - b.price});
 
   for( key in ary ){
+    elem = ary[key];
+    bar = "";
+    for(i=0; i < elem.quant; ++i){
+      bar += '■';
+    }
 %>
-<tr><th><%= ary[key].price %></th><th><%= ary[key].quant %></th></tr>
+<tr><th><%= elem.price %></th><th><%= elem.quant %></th>
+<th style="text-align:left;"><%= bar %></th></tr>
 <% }  %>
 </table>
 </p>
