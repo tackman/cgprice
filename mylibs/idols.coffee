@@ -155,6 +155,10 @@ exports.table = {
   '［大器晩成］道明寺歌鈴+': 'TaikibanseiDomyojiKarin+'
   'クラリス': 'Clarice'
   'クラリス+': 'Clarice+'
+  '［スポーツ祭］今井加奈': 'SportssaiImaiKana'
+  '［スポーツ祭］今井加奈+': 'SportssaiImaiKana'
+  '［ニュージェネレーション］島村卯月': 'NewgenerationShimamuraUzuki'
+  '［ニュージェネレーション］島村卯月+': 'NewgenerationShimamuraUzuki+'
 
 
 # クール
@@ -311,6 +315,10 @@ exports.table = {
   '［オフスタイルネイビー］和久井留美+': 'OffstylenavyWakuiRumi+'
   '［麗しの花嫁］和久井留美': 'UruwashinohanayomeWakuiRumi'
   '［麗しの花嫁］和久井留美+': 'UruwashinohanayomeWakuiRumi+'
+  '［スポーツ祭］桐野アヤ': 'SportssaiKirinoAya'
+  '［スポーツ祭］桐野アヤ+': 'SportssaiKirinoAya+'
+  '［スポーツ祭］小室千奈美': 'SportssaiKomuroChinami'
+  '［スポーツ祭］小室千奈美+': 'SportssaiKomuroChinami+'
 
 # パッション
 # 2
@@ -466,6 +474,10 @@ exports.table = {
   '［ふんわりガール］高森藍子+': 'FunwarigirlTakamoriAiko+'
   '［姉御肌］向井拓海': 'AnegohadaMukaiTakumi'
   '［姉御肌］向井拓海+': 'AnegohadaMukaiTakumi+'
+  '［スポーツ祭］沢田麻里菜': 'SportssaiSawadaMarina'
+  '［スポーツ祭］沢田麻里菜+': 'SportssaiSawadaMarina+'
+  '［スポーツ祭］北川真尋': 'SportssaiKitagawaMahiro'
+  '［スポーツ祭］北川真尋+': 'SportssaiKitagawaMahiro+'
 
 }
 
@@ -621,6 +633,9 @@ exports.list = [
   'クラリス+'
   '［大器晩成］道明寺歌鈴'
   '［大器晩成］道明寺歌鈴+'
+  '［ニュージェネレーション］島村卯月'
+  '［スポーツ祭］今井加奈'
+
 
 # クール
 # 2
@@ -771,6 +786,8 @@ exports.list = [
   '［オフスタイルネイビー］和久井留美'
   '［麗しの花嫁］和久井留美'
   '［麗しの花嫁］和久井留美+'
+  '［スポーツ祭］桐野アヤ'
+  '［スポーツ祭］小室千奈美'
 
 # パッション
 # 2
@@ -927,6 +944,8 @@ exports.list = [
   '［ふんわりガール］高森藍子+'
   '［姉御肌］向井拓海'
   '［姉御肌］向井拓海+'
+  '［スポーツ祭］沢田麻里菜'
+  '［スポーツ祭］北川真尋'
 ]
 
 
@@ -1077,6 +1096,8 @@ exports.ids = [
   'Clarice+'
   'TaikibanseiDomyojiKarin'
   'TaikibanseiDomyojiKarin+'
+  'NewgenerationShimamuraUzuki'
+  'SportssaiImaiKana'
 
 
 # クール
@@ -1228,6 +1249,8 @@ exports.ids = [
   'OffstylenavyWakuiRumi'
   'UruwashinohanayomeWakuiRumi'
   'UruwashinohanayomeWakuiRumi+'
+  'SportssaiKomuroChinami'
+  'SportssaiKirinoAya'
 
 
 
@@ -1383,5 +1406,7 @@ exports.ids = [
   'FunwarigirlTakamoriAiko+'
   'AnegohadaMukaiTakumi'
   'AnegohadaMukaiTakumi+'
+  'SportssaiSawadaMarina'
+  'SportssaiKitagawaMahiro'
 
 ]
