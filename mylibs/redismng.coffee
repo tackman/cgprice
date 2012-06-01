@@ -97,7 +97,7 @@ exports.parseBody = (body, name) ->
   escaped = name.split('+').join('\\+')
   escaped = escaped.split('[').join('\\[')
   escaped = escaped.split(']').join('\\]')
-  reg1 = new RegExp '(' + escaped + '[^\\+]).*([0-9]+\\.?[0-9]*)'
+  reg1 = new RegExp '(' + escaped + ')[^\\+0-9]?[^0-9]*([0-9]+\\.?[0-9]*)'
   reg2 = new RegExp '([0-9]+\\.?[0-9]*).*(' + escaped + '[^\\+])'
 
   lines = body.split '<br>'
@@ -115,7 +115,7 @@ exports.parseBody = (body, name) ->
   name2 = name2.split('］').join(']')
   escaped2 = escaped.split('［').join('\\[')
   escaped2 = escaped2.split('］').join('\\]')
-  reg1 = new RegExp '(' + escaped2 + '[^\\+]).*([0-9]+\\.?[0-9]*)'
+  reg1 = new RegExp '(' + escaped2 + ')[^\\+0-9]?[^0-9]*([0-9]+\\.?[0-9]*)'
   reg2 = new RegExp '([0-9]+\\.?[0-9]*).*(' + escaped2 + '[^\\+])'
   for line in lines
     if line.indexOf(name2) == -1
