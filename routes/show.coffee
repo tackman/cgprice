@@ -14,7 +14,7 @@ else
 exports.show = (req, res) ->
   if req.query.name
     unsp = req.query.name.split(' ').join('+')
-    id = idols.table[decodeURI(unsp)]
+    id = idols.table[unsp]
 
   if id?
     redismng.getData id, (obj) ->
@@ -24,7 +24,7 @@ exports.show = (req, res) ->
       }
 
     ,(err) ->
-      res.render '500', {status: 500}
+      res.render '500', {status: 500, title: 'いんたーなるえらーかなーって'}
   else
     res.render 'show_err', {title:'未登録のアイドル名', locals:{name: unsp}}
 
