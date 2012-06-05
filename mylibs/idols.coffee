@@ -27,8 +27,8 @@ exports.table = {
 # 4ページ
   '相原雪乃': 'AiharaYukino'
   '相原雪乃+': 'AiharaYukino+'
-  ' 宮本フレデリカ': 'MiyamotoFrederica'
-  ' 宮本フレデリカ+': 'MiyamotoFrederica+'
+  '宮本フレデリカ': 'MiyamotoFrederica'
+  '宮本フレデリカ+': 'MiyamotoFrederica+'
   '小早川紗枝': 'KobayakawaSae'
   '小早川紗枝+': 'KobayakawaSae+'
   '西園寺琴歌': 'SaionjiKotoka'
@@ -478,6 +478,7 @@ exports.table = {
   '［スポーツ祭］沢田麻里菜+': 'SportssaiSawadaMarina+'
   '［スポーツ祭］北川真尋': 'SportssaiKitagawaMahiro'
   '［スポーツ祭］北川真尋+': 'SportssaiKitagawaMahiro+'
+  '［ハッピーブライダル］ナターリア': 'HappybridalNatalia'
 
 }
 
@@ -506,8 +507,8 @@ exports.list = [
 # 4
   '相原雪乃'
   '相原雪乃+'
-  ' 宮本フレデリカ'
-  ' 宮本フレデリカ+'
+  '宮本フレデリカ'
+  '宮本フレデリカ+'
   '小早川紗枝'
   '小早川紗枝+'
   '西園寺琴歌'
@@ -946,6 +947,7 @@ exports.list = [
   '［姉御肌］向井拓海+'
   '［スポーツ祭］沢田麻里菜'
   '［スポーツ祭］北川真尋'
+  '［ハッピーブライダル］ナターリア'
 ]
 
 
@@ -1408,5 +1410,6 @@ exports.ids = [
   'AnegohadaMukaiTakumi+'
   'SportssaiSawadaMarina'
   'SportssaiKitagawaMahiro'
+  'HappybridalNatalia'
 
 ]
