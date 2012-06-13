@@ -1,6 +1,7 @@
 req2ch = require '../mylibs/req2ch'
 redismng = require '../mylibs/redismng'
-idols = require '../mylibs/idols'
+ilist = require '../mylibs/idol_list'
+itable = require '../mylibs/idol_table'
 
 redis = require 'redis'
 
@@ -14,7 +15,7 @@ else
 exports.show = (req, res) ->
   if req.query.name
     unsp = req.query.name.split(' ').join('+')
-    id = idols.table[unsp]
+    id = itable.table[unsp]
 
   if id?
     redismng.getData id, (obj) ->
@@ -32,5 +33,5 @@ exports.show = (req, res) ->
 exports.list = (req,res) ->
   res.render 'show_list', {
     title: 'アイドル一覧'
-    locals: {list: idols.list}
+    locals: {list: ilist.list}
   }
