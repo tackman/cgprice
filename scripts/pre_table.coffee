@@ -65,7 +65,10 @@ exports.table = {
   "［大器晩成］道明寺歌鈴": "TaikibanseiDomyojiKarin"
   "クラリス": "Clarice"
   "［スポーツ祭］今井加奈": "SportssaiImaiKana"
+  "［アニマルパーク］日下部若葉": "AnimalparkKusakabeWakaba"
   "［ニュージェネレーション］島村卯月": "NewgenerationShimamuraUzuki"
+  "［自称・カワイイ］輿水幸子": "JishoukawaiiKoshimizuSachiko"
+
   "三船美優": "MifuneMiyu"
   "服部瞳子": "HattoriToko"
   "［バレンタイン］佐々木千枝": "ValentineSasakiChie"
@@ -133,6 +136,7 @@ exports.table = {
   "［麗しの花嫁］和久井留美": "UruwashinohanayomeWakuiRumi"
   "［スポーツ祭］桐野アヤ": "SportssaiKirinoAya"
   "［スポーツ祭］小室千奈美": "SportssaiKomuroChinami"
+  "［アニマルパーク］三船美優": "AnimalparkMifuneMiyu"
   "喜多見柚": "KitamiYuzu"
   "上田鈴帆": "UedaSuzuho"
   "［バレンタイン］高森藍子": "ValentineTakamoriAiko"
@@ -170,7 +174,7 @@ exports.table = {
   "［ひな祭り］上田鈴帆": "HinamatsuriUedaSuzuho"
   "難波笑美": "NambaEmi"
   "［お花見］姫川友紀": "OhanamiHimekawaYuki"
-  "［制服コレクション］木村夏樹": "SeifukucollectionKimuraNatsuki"
+  "［制服コレクション］木村夏樹": "SeifukucollectionKimuraNatuki"
   "［制服コレクション］矢口美羽": "SeifukucollectionYaguchiMiu"
   "浜口あやめ": "HamaguchiAyame"
   "［フラワーブーケ］相葉夕美": "FlowerbouquetAibaYumi"
@@ -206,4 +210,5 @@ exports.table = {
   "［姉御肌］向井拓海": "AnegohadaMukaiTakumi"
   "［スポーツ祭］沢田麻里菜": "SportssaiSawadaMarina"
   "［スポーツ祭］北川真尋": "SportssaiKitagawaMahiro"
+  "［アニマルパーク］市原仁奈": "AnimalparkIchiharaNina"
 }
