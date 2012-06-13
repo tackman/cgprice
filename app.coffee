@@ -1,6 +1,5 @@
 express = require("express")
 routes = require("./routes")
-debug = require './routes/debug'
 refresh = require './routes/refresh'
 show = require './routes/show'
 app = module.exports = express.createServer()
@@ -23,7 +22,6 @@ app.configure "development", ->
 app.configure "production", ->
   app.use express.errorHandler()
 
-app.get '/debug/threads', debug.threads
 app.get '/refresh', refresh.render
 app.get '/list', show.list
 app.get '/show', show.show
