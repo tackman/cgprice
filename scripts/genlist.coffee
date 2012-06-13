@@ -1,4 +1,4 @@
-req = require './mylibs/idol_table'
+req = require './pre_table'
 
 console.log 'exports.list = ['
 

@@ -1,4 +1,5 @@
-idols = require './idols'
+ilist = require './idol_list'
+itable = require './idol_table'
 req2ch = require './req2ch'
 redis = require 'redis'
 
@@ -77,8 +78,8 @@ exports.parseRes = (res) ->
   # elems[1] mail
   # elems[2] date, id
   # elems[3] body
-  list = idols.list
-  table = idols.table
+  list = ilist.list
+  table = itable.table
   for name in list
     price = exports.parseBody elems[3],name
     if price?

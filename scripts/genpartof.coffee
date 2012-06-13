@@ -1,4 +1,4 @@
-req = require './mylibs/idol_list'
+req = require '../mylibs/idol_list'
 
 console.log 'exports.partof = {'
 
