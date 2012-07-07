@@ -194,7 +194,6 @@ exports.ids = [
   "SportssaiSawadaMarina"
   "SportssaiKitagawaMahiro"
   "AnimalparkIchiharaNina"
-  "［浴衣祭り］海老原菜帆"
   "YukatamatsuriEbiharaNaho"
   "TakabishaojosamaMinaseIori"
   "OkubyonatenshiHagiwaraYukiho"

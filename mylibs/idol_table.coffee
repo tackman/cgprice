@@ -197,7 +197,7 @@ exports.table = {
   "［スポーツ祭］沢田麻里菜": "SportssaiSawadaMarina"
   "［スポーツ祭］北川真尋": "SportssaiKitagawaMahiro"
   "［アニマルパーク］市原仁奈": "AnimalparkIchiharaNina"
-  "［浴衣祭り］海老原菜帆"; "YukatamatsuriEbiharaNaho"
+  "［浴衣祭り］海老原菜帆": "YukatamatsuriEbiharaNaho"
 
   "［高飛車お嬢様］水瀬伊織": "TakabishaojosamaMinaseIori"
   "［臆病な天使］萩原雪歩": "OkubyonatenshiHagiwaraYukiho"
