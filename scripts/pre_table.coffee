@@ -124,6 +124,7 @@ exports.table = {
   "［アニマルパーク］三船美優": "AnimalparkMifuneMiyu"
   "［クーリッシュピクシー］塩見周子": "CoolishbeautyShiomiShuko"
   "［浴衣祭り］成宮由愛": "YukatamatsuriNarumiyaYume"
+  "［浴衣祭り］藤原肇": "YukatamatsuriFujiwaraHajime"
 
   "［孤高の歌姫］如月千早": "KokonoutahimeKisaragiChihaya"
   "［皆のお姉さん］三浦あずさ": "MinnanoonesanMiuraAzusa"
@@ -213,6 +214,7 @@ exports.table = {
   "［眠れる姫君］星井美希": "NemureruhimegimiHoshiiMiki"
   "［ハッピーブライダル］ナターリア": "HappybridalNatalia"
   "［しっぽもふもふ］赤城みりあ": "ShippomofumofuAkagiMiria"
+  "［カリスマギャル］城ヶ崎美嘉": "CharismagalJougasakiMika"
   "［アニス衣装］萩原雪歩+": "AnisishouHagiwaraYukiho+"
   "［制服オレンジ］星井美希": "SeifukuorangeHoshiiMiki"
   "招待美希": "SeifukuorangeHoshiiMiki"
