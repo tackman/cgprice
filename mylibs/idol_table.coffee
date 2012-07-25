@@ -73,6 +73,7 @@ exports.table = {
   "［ニュージェネレーション］島村卯月": "NewgenerationShimamuraUzuki"
   "［自称・カワイイ］輿水幸子": "JishoukawaiiKoshimizuSachiko"
   "［夏の夜の天女］小早川紗枝": "NatsunoyonotennyoKobayakawaSae"
+  "［スイートサマー］椎名法子": "SweetsummerShinaNoriko"
 
   "三船美優": "MifuneMiyu"
   "服部瞳子": "HattoriToko"

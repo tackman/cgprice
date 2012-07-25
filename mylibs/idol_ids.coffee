@@ -73,6 +73,7 @@ exports.ids = [
   "NewgenerationShimamuraUzuki"
   "JishoukawaiiKoshimizuSachiko"
   "NatsunoyonotennyoKobayakawaSae"
+  "SweetsummerShinaNoriko"
   "MifuneMiyu"
   "HattoriToko"
   "ValentineSasakiChie"
