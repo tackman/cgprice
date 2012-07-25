@@ -74,6 +74,7 @@ exports.table = {
   "［自称・カワイイ］輿水幸子": "JishoukawaiiKoshimizuSachiko"
   "［夏の夜の天女］小早川紗枝": "NatsunoyonotennyoKobayakawaSae"
   "［スイートサマー］椎名法子": "SweetsummerShinaNoriko"
+  "［はにかみ乙女］小日向美穂": "HanikamiotomeKohinataMiho"
 
   "三船美優": "MifuneMiyu"
   "服部瞳子": "HattoriToko"
@@ -200,6 +201,7 @@ exports.table = {
   "［スポーツ祭］北川真尋": "SportssaiKitagawaMahiro"
   "［アニマルパーク］市原仁奈": "AnimalparkIchiharaNina"
   "［浴衣祭り］海老原菜帆": "YukatamatsuriEbiharaNaho"
+  "［ロッキングスタイル］木村夏樹": "RockingstyleKimuraNatsuki"
 
   "［高飛車お嬢様］水瀬伊織": "TakabishaojosamaMinaseIori"
   "［臆病な天使］萩原雪歩": "OkubyonatenshiHagiwaraYukiho"
