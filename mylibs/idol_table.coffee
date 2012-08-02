@@ -242,6 +242,6 @@ exports.table = {
   "［バレンタイン］トレーナー": "ValentineTrainer"
   "［バレンタイン］ベテラントレーナー": "ValentineVeteranTrainer"
   "［サマースタイル］トレーナー": "SummerstyleTrainer"
-  "［渚のマーメイド］イヴ・サンタクロース ": "NagisanomermaidEveSantaclaus"
+  "［渚のマーメイド］イヴ・サンタクロース": "NagisanomermaidEveSantaclaus"
 
 }
