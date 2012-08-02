@@ -42,6 +42,9 @@ exports.table = {
   "［ウサコちゃんと］持田亜里沙": "UsakochantoMochidaArisa"
   "［パジャマパーティー］緒方智絵里": "PajamapartyOgataChieri"
   "［パジャマパーティー］間中美里": "PajamapartyManakaMisato"
+  "［マーメイドパラダイス］横山千佳": "MermaidparadiseYokoyamaChika"
+  "［マーメイドパラダイス］五十嵐響子": "MermaidparadiseIgarashiKyoko"
+
   "［沖縄元気っ娘］我那覇響": "OkinawagenkikkoGanahaHibiki"
   "［王子様な女子］菊地真": "OjisamanajoshiKikuchiMakoto"
   "［セクシーキャット］前川みく": "SexycatMaekawaMiku"
@@ -127,6 +130,8 @@ exports.table = {
   "［クーリッシュピクシー］塩見周子": "CoolishbeautyShiomiShuko"
   "［浴衣祭り］成宮由愛": "YukatamatsuriNarumiyaYume"
   "［浴衣祭り］藤原肇": "YukatamatsuriFujiwaraHajime"
+  "［マーメイドパラダイス］水木聖來": "MermaidparadiseMizukiSera"
+  "［マーメイドパラダイス］瀬名詩織": "MermaidparadiseSenaShiori"
 
   "［孤高の歌姫］如月千早": "KokonoutahimeKisaragiChihaya"
   "［皆のお姉さん］三浦あずさ": "MinnanoonesanMiuraAzusa"
@@ -148,6 +153,7 @@ exports.table = {
   "［妖しき雌豹］高橋礼子": "AyashikimehyouTakahashiReiko"
   "［プロデューサーアイドル］秋月律子": "ProduceridolAkizukiRitsuko"
   "［プチ･マドモアゼル］佐城雪美": "PutimademoiselleSajouYukimi"
+  "［渚の天使］神崎蘭子": "NagisanotenshiKanzakiRanko"
   "［制服ブルー］如月千早": "SeifukublueKisaragiChihaya"
   "招待千早": "SeifukublueKisaragiChihaya"
   "［瑠璃の歌姫］如月千早": "RurinoutahimeKisaragiChihaya"
@@ -202,6 +208,8 @@ exports.table = {
   "［アニマルパーク］市原仁奈": "AnimalparkIchiharaNina"
   "［浴衣祭り］海老原菜帆": "YukatamatsuriEbiharaNaho"
   "［ロッキングスタイル］木村夏樹": "RockingstyleKimuraNatsuki"
+  "［イタズラっ子］小関麗奈"
+  "［マーメイドパラダイス］及川雫": "MermaidparadiseOikawaShizuku"
 
   "［高飛車お嬢様］水瀬伊織": "TakabishaojosamaMinaseIori"
   "［臆病な天使］萩原雪歩": "OkubyonatenshiHagiwaraYukiho"
@@ -234,5 +242,6 @@ exports.table = {
   "［バレンタイン］トレーナー": "ValentineTrainer"
   "［バレンタイン］ベテラントレーナー": "ValentineVeteranTrainer"
   "［サマースタイル］トレーナー": "SummerstyleTrainer"
+  "［渚のマーメイド］イヴ・サンタクロース ": "NagisanomermaidEveSantaclaus"
 
 }
