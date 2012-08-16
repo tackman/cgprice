@@ -22,7 +22,7 @@ app.configure "development", ->
 app.configure "production", ->
   app.use express.errorHandler()
 
-app.get '/refresh', refresh.render
+# app.get '/refresh', refresh.render
 app.get '/list', show.list
 app.get '/show', show.show
 
